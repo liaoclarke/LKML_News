@@ -7,3 +7,13 @@
 [2026-05-22 01:55:56]   Wrote: /Users/imagent4bd/workspace/lkml/dma_swiotlb_track_pool_encryption_state_and_honor_DMA_ATTR_CC_SHARED.md
 [2026-05-22 01:55:56]   Analyzing: Fix __pkvm_init_vm error path (1 msgs)
 [2026-05-22 01:56:46]   Wrote: /Users/imagent4bd/workspace/lkml/Fix___pkvm_init_vm_error_path.md
+[2026-05-22 01:56:50]   Git push successful
+[2026-05-22 01:56:50] Done.
+[2026-05-22 02:06:57] Last check: 2026-05-21 17:55:10.835762+00:00, searching since 2026-05-21 16:55:10.835762+00:00
+[2026-05-22 02:06:57]   Found 182 emails in INBOX since 21-May-2026
+[2026-05-22 02:07:00]   Moved 2 ARM-related emails to arm64 folder
+[2026-05-22 02:07:00]   Arm64 folder: 143 total, 2 new
+[2026-05-22 02:07:00]   Analyzing: KVM: arm64: gic-v5: Set IRICHPPIDIS based on IRS enable state (1 msgs)
+[2026-05-22 02:07:26]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Set_IRICHPPIDIS_based_on_IRS_enable_state.md
+[2026-05-22 02:07:26]   Analyzing: arm64+KVM: FPSIMD/SVE/SME cleanups (1 msgs)
+[2026-05-22 02:08:00]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_KVM_FPSIMD_SVE_SME_cleanups.md
