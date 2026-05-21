@@ -1,0 +1,8 @@
+  File "/Users/imagent4bd/workspace/lkml/lkml_tracker.py", line 234
+    self.sock.sendall(f"{tag} UID COPY {uid_str} "{folder}"\r\n".encode())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2026-05-21 23:20:27] IMAP LOGIN failed: A0001 OK LOGIN completed
+[2026-05-21 23:20:27] Login failed - credentials may be expired or incorrect
+[2026-05-22 00:50:53]   Analysis failed for: arm64: RMI: Ensure that the RMM has GPT entries for memory
+[2026-05-22 01:18:49]   Analysis failed for: arm64: RME: Handle Granule Protection Faults (GPFs)

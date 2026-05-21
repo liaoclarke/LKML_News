@@ -1,0 +1,1260 @@
+[2026-05-21 00:14:08.469205] LKML Tracker starting...
+  First run - processing recent emails only
+  IMAP connection failed: 'ID'
+[2026-05-21 00:24:08.762424] LKML Tracker starting...
+  Last check: 2026-05-20 16:22:20.156339+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 00:24:09.049193] Done.
+[2026-05-21 00:34:09.173435] LKML Tracker starting...
+  Last check: 2026-05-20 16:24:08.762484+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 00:34:09.496554] Done.
+[2026-05-21 00:44:09.622546] LKML Tracker starting...
+  Last check: 2026-05-20 16:34:09.173490+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 00:44:09.954208] Done.
+[2026-05-21 00:54:10.076951] LKML Tracker starting...
+  Last check: 2026-05-20 16:44:09.622605+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 00:54:10.398057] Done.
+[2026-05-21 01:04:10.520418] LKML Tracker starting...
+  Last check: 2026-05-20 16:54:10.077011+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 01:04:10.802356] Done.
+[2026-05-21 01:14:10.924810] LKML Tracker starting...
+  Last check: 2026-05-20 17:04:10.520478+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 01:14:11.253971] Done.
+[2026-05-21 01:24:11.376638] LKML Tracker starting...
+  Last check: 2026-05-20 17:14:10.924873+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 01:24:11.666280] Done.
+[2026-05-21 01:34:11.790899] LKML Tracker starting...
+  Last check: 2026-05-20 17:24:11.376697+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 01:34:12.093609] Done.
+[2026-05-21 01:44:12.217592] LKML Tracker starting...
+  Last check: 2026-05-20 17:34:11.790965+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 01:44:12.556067] Done.
+[2026-05-21 01:54:12.683537] LKML Tracker starting...
+  Last check: 2026-05-20 17:44:12.217652+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 01:54:12.977764] Done.
+[2026-05-21 02:04:13.100025] LKML Tracker starting...
+  Last check: 2026-05-20 17:54:12.683601+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 02:04:13.413922] Done.
+[2026-05-21 02:14:13.532690] LKML Tracker starting...
+  Last check: 2026-05-20 18:04:13.100086+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 02:14:13.859084] Done.
+[2026-05-21 02:24:14.052701] LKML Tracker starting...
+  Last check: 2026-05-20 18:14:13.532751+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 02:24:15.419547] Done.
+[2026-05-21 02:34:15.589436] LKML Tracker starting...
+  Last check: 2026-05-20 18:24:14.052981+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 02:34:15.888654] Done.
+[2026-05-21 02:44:16.013841] LKML Tracker starting...
+  Last check: 2026-05-20 18:34:15.589741+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 02:44:16.303430] Done.
+[2026-05-21 02:54:16.428542] LKML Tracker starting...
+  Last check: 2026-05-20 18:44:16.013904+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 02:54:16.758932] Done.
+[2026-05-21 03:04:16.888550] LKML Tracker starting...
+  Last check: 2026-05-20 18:54:16.428603+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 03:04:17.215789] Done.
+[2026-05-21 03:14:17.336430] LKML Tracker starting...
+  Last check: 2026-05-20 19:04:16.888626+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 03:14:17.650889] Done.
+[2026-05-21 03:24:17.778349] LKML Tracker starting...
+  Last check: 2026-05-20 19:14:17.336490+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 03:24:18.095345] Done.
+[2026-05-21 03:34:18.228542] LKML Tracker starting...
+  Last check: 2026-05-20 19:24:17.778409+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 03:34:18.510431] Done.
+[2026-05-21 03:44:18.657553] LKML Tracker starting...
+  Last check: 2026-05-20 19:34:18.228604+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 03:44:18.952163] Done.
+[2026-05-21 03:54:19.078320] LKML Tracker starting...
+  Last check: 2026-05-20 19:44:18.657627+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 03:54:19.367483] Done.
+[2026-05-21 04:04:19.496405] LKML Tracker starting...
+  Last check: 2026-05-20 19:54:19.078381+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 04:04:19.801045] Done.
+[2026-05-21 04:14:19.925643] LKML Tracker starting...
+  Last check: 2026-05-20 20:04:19.496469+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 04:14:20.224186] Done.
+[2026-05-21 04:24:20.347507] LKML Tracker starting...
+  Last check: 2026-05-20 20:14:19.925703+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 04:24:20.650292] Done.
+[2026-05-21 04:34:20.784633] LKML Tracker starting...
+  Last check: 2026-05-20 20:24:20.347569+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 04:34:21.065617] Done.
+[2026-05-21 04:44:21.191247] LKML Tracker starting...
+  Last check: 2026-05-20 20:34:20.784702+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 04:44:21.486609] Done.
+[2026-05-21 04:54:21.608640] LKML Tracker starting...
+  Last check: 2026-05-20 20:44:21.191307+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 04:54:21.890112] Done.
+[2026-05-21 05:04:22.026935] LKML Tracker starting...
+  Last check: 2026-05-20 20:54:21.608700+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 05:04:22.278194] Done.
+[2026-05-21 05:14:22.394491] LKML Tracker starting...
+  Last check: 2026-05-20 21:04:22.027169+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 05:14:22.668186] Done.
+[2026-05-21 05:24:22.787687] LKML Tracker starting...
+  Last check: 2026-05-20 21:14:22.394551+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 05:24:23.056760] Done.
+[2026-05-21 05:34:23.179103] LKML Tracker starting...
+  Last check: 2026-05-20 21:24:22.787753+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 05:34:23.473075] Done.
+[2026-05-21 05:44:23.605494] LKML Tracker starting...
+  Last check: 2026-05-20 21:34:23.179167+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 05:44:23.902598] Done.
+[2026-05-21 05:54:24.037402] LKML Tracker starting...
+  Last check: 2026-05-20 21:44:23.605734+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 05:54:24.385674] Done.
+[2026-05-21 06:04:24.520858] LKML Tracker starting...
+  Last check: 2026-05-20 21:54:24.037634+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 06:04:24.838795] Done.
+[2026-05-21 06:14:24.955763] LKML Tracker starting...
+  Last check: 2026-05-20 22:04:24.521096+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 06:14:25.282506] Done.
+[2026-05-21 06:24:25.411535] LKML Tracker starting...
+  Last check: 2026-05-20 22:14:24.955826+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 06:24:25.716576] Done.
+[2026-05-21 06:34:25.840118] LKML Tracker starting...
+  Last check: 2026-05-20 22:24:25.411759+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 06:34:26.167596] Done.
+[2026-05-21 06:44:26.297637] LKML Tracker starting...
+  Last check: 2026-05-20 22:34:25.840184+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 06:44:26.618738] Done.
+[2026-05-21 06:54:26.747361] LKML Tracker starting...
+  Last check: 2026-05-20 22:44:26.297703+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 06:54:27.062115] Done.
+[2026-05-21 07:04:27.197483] LKML Tracker starting...
+  Last check: 2026-05-20 22:54:26.747422+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 07:04:27.513799] Done.
+[2026-05-21 07:14:27.635396] LKML Tracker starting...
+  Last check: 2026-05-20 23:04:27.197718+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 07:14:27.957207] Done.
+[2026-05-21 07:24:28.077908] LKML Tracker starting...
+  Last check: 2026-05-20 23:14:27.635458+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 07:24:28.389253] Done.
+[2026-05-21 07:34:28.523076] LKML Tracker starting...
+  Last check: 2026-05-20 23:24:28.077971+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 07:34:28.815286] Done.
+[2026-05-21 07:44:28.955946] LKML Tracker starting...
+  Last check: 2026-05-20 23:34:28.523153+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 07:44:29.294162] Done.
+[2026-05-21 07:54:29.418198] LKML Tracker starting...
+  Last check: 2026-05-20 23:44:28.956226+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 07:54:29.704601] Done.
+[2026-05-21 08:04:29.838128] LKML Tracker starting...
+  Last check: 2026-05-20 23:54:29.418260+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 08:04:30.146994] Done.
+[2026-05-21 08:14:30.281843] LKML Tracker starting...
+  Last check: 2026-05-21 00:04:29.838376+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 08:14:30.619773] Done.
+[2026-05-21 08:24:30.747614] LKML Tracker starting...
+  Last check: 2026-05-21 00:14:30.282074+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 08:24:31.097070] Done.
+[2026-05-21 08:34:31.232403] LKML Tracker starting...
+  Last check: 2026-05-21 00:24:30.747674+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 08:34:31.576005] Done.
+[2026-05-21 08:44:31.702741] LKML Tracker starting...
+  Last check: 2026-05-21 00:34:31.232481+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 08:44:32.029900] Done.
+[2026-05-21 08:54:32.151108] LKML Tracker starting...
+  Last check: 2026-05-21 00:44:31.702803+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 08:54:32.490912] Done.
+/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/imagent4bd/.openclaw/workspace/scripts/lkml_tracker_v2.py': [Errno 2] No such file or directory
+/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/imagent4bd/.openclaw/workspace/scripts/lkml_tracker_v2.py': [Errno 2] No such file or directory
+[2026-05-21 09:04:32.626833] LKML Tracker starting...
+  Last check: 2026-05-21 00:54:32.151172+00:00
+  Found 0 emails since 20-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 09:04:32.920865] Done.
+[2026-05-21 09:14:33.042220] LKML Tracker starting...
+  Last check: 2026-05-21 01:04:32.627063+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 09:14:33.334455] Done.
+[2026-05-21 09:24:33.458472] LKML Tracker starting...
+  Last check: 2026-05-21 01:14:33.042283+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 09:24:33.770510] Done.
+[2026-05-21 09:34:33.891338] LKML Tracker starting...
+  Last check: 2026-05-21 01:24:33.458534+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 09:34:34.194948] Done.
+[2026-05-21 09:44:34.334430] LKML Tracker starting...
+  Last check: 2026-05-21 01:34:33.891398+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 09:44:34.671080] Done.
+[2026-05-21 09:54:34.798570] LKML Tracker starting...
+  Last check: 2026-05-21 01:44:34.334497+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 09:54:35.117917] Done.
+[2026-05-21 10:04:35.240949] LKML Tracker starting...
+  Last check: 2026-05-21 01:54:34.798640+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 10:04:35.560211] Done.
+[2026-05-21 10:14:35.680491] LKML Tracker starting...
+  Last check: 2026-05-21 02:04:35.241010+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 10:14:35.990574] Done.
+[2026-05-21 10:24:36.113633] LKML Tracker starting...
+  Last check: 2026-05-21 02:14:35.680555+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 10:24:36.472406] Done.
+[2026-05-21 10:34:36.606673] LKML Tracker starting...
+  Last check: 2026-05-21 02:24:36.113696+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 10:34:36.948837] Done.
+[2026-05-21 10:44:37.083745] LKML Tracker starting...
+  Last check: 2026-05-21 02:34:36.606748+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 10:44:37.415131] Done.
+[2026-05-21 10:54:37.537501] LKML Tracker starting...
+  Last check: 2026-05-21 02:44:37.083805+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 10:54:37.880836] Done.
+[2026-05-21 11:04:38.012824] LKML Tracker starting...
+  Last check: 2026-05-21 02:54:37.537566+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 11:04:38.353945] Done.
+[2026-05-21 11:14:38.480429] LKML Tracker starting...
+  Last check: 2026-05-21 03:04:38.013077+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 11:14:38.820910] Done.
+[2026-05-21 11:24:38.944292] LKML Tracker starting...
+  Last check: 2026-05-21 03:14:38.480489+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 11:24:39.287426] Done.
+[2026-05-21 11:34:39.410433] LKML Tracker starting...
+  Last check: 2026-05-21 03:24:38.944351+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 11:34:39.740117] Done.
+[2026-05-21 11:44:39.876921] LKML Tracker starting...
+  Last check: 2026-05-21 03:34:39.410497+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 11:44:40.209427] Done.
+[2026-05-21 11:54:40.342727] LKML Tracker starting...
+  Last check: 2026-05-21 03:44:39.877155+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 11:54:40.693357] Done.
+[2026-05-21 12:04:40.828925] LKML Tracker starting...
+  Last check: 2026-05-21 03:54:40.342951+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 12:04:41.163815] Done.
+[2026-05-21 12:14:41.292809] LKML Tracker starting...
+  Last check: 2026-05-21 04:04:40.829172+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 12:14:41.592334] Done.
+[2026-05-21 12:24:41.722873] LKML Tracker starting...
+  Last check: 2026-05-21 04:14:41.292870+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 12:24:42.048505] Done.
+[2026-05-21 12:34:42.171665] LKML Tracker starting...
+  Last check: 2026-05-21 04:24:41.723104+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 12:34:42.467971] Done.
+[2026-05-21 12:44:42.596333] LKML Tracker starting...
+  Last check: 2026-05-21 04:34:42.171726+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 12:44:42.930829] Done.
+[2026-05-21 12:54:43.066683] LKML Tracker starting...
+  Last check: 2026-05-21 04:44:42.596397+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 12:54:43.350888] Done.
+[2026-05-21 13:04:43.478148] LKML Tracker starting...
+  Last check: 2026-05-21 04:54:43.066752+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 13:04:43.816147] Done.
+[2026-05-21 13:14:43.945866] LKML Tracker starting...
+  Last check: 2026-05-21 05:04:43.478210+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 13:14:44.254683] Done.
+[2026-05-21 13:24:44.375489] LKML Tracker starting...
+  Last check: 2026-05-21 05:14:43.945932+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 13:24:44.739769] Done.
+[2026-05-21 13:34:44.872410] LKML Tracker starting...
+  Last check: 2026-05-21 05:24:44.375552+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 13:34:45.205544] Done.
+[2026-05-21 13:44:45.326462] LKML Tracker starting...
+  Last check: 2026-05-21 05:34:44.872481+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 13:44:45.635610] Done.
+[2026-05-21 13:54:45.758874] LKML Tracker starting...
+  Last check: 2026-05-21 05:44:45.326523+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 13:54:46.104914] Done.
+[2026-05-21 14:04:46.243050] LKML Tracker starting...
+  Last check: 2026-05-21 05:54:45.758936+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 14:04:46.543573] Done.
+[2026-05-21 14:14:46.665869] LKML Tracker starting...
+  Last check: 2026-05-21 06:04:46.243292+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 14:14:46.960586] Done.
+[2026-05-21 14:24:47.083887] LKML Tracker starting...
+  Last check: 2026-05-21 06:14:46.665931+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 14:24:47.378023] Done.
+[2026-05-21 14:34:47.505735] LKML Tracker starting...
+  Last check: 2026-05-21 06:24:47.083949+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 14:34:47.806006] Done.
+[2026-05-21 14:44:47.930974] LKML Tracker starting...
+  Last check: 2026-05-21 06:34:47.505798+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 14:44:48.304526] Done.
+[2026-05-21 14:54:48.429778] LKML Tracker starting...
+  Last check: 2026-05-21 06:44:47.931036+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 14:54:48.764589] Done.
+[2026-05-21 15:04:48.887018] LKML Tracker starting...
+  Last check: 2026-05-21 06:54:48.429840+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 15:04:49.212453] Done.
+[2026-05-21 15:14:49.345122] LKML Tracker starting...
+  Last check: 2026-05-21 07:04:48.887079+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 15:14:49.682572] Done.
+[2026-05-21 15:24:49.810411] LKML Tracker starting...
+  Last check: 2026-05-21 07:14:49.345195+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 15:24:50.131502] Done.
+[2026-05-21 15:34:50.252440] LKML Tracker starting...
+  Last check: 2026-05-21 07:24:49.810476+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 15:34:50.551741] Done.
+[2026-05-21 15:44:50.676408] LKML Tracker starting...
+  Last check: 2026-05-21 07:34:50.252501+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 15:44:51.012853] Done.
+[2026-05-21 15:54:51.142433] LKML Tracker starting...
+  Last check: 2026-05-21 07:44:50.676474+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 15:54:51.434537] Done.
+[2026-05-21 16:04:51.570967] LKML Tracker starting...
+  Last check: 2026-05-21 07:54:51.142495+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 16:04:51.897100] Done.
+[2026-05-21 16:14:52.024435] LKML Tracker starting...
+  Last check: 2026-05-21 08:04:51.571036+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 16:14:52.352626] Done.
+[2026-05-21 16:24:52.473654] LKML Tracker starting...
+  Last check: 2026-05-21 08:14:52.024495+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 16:24:52.804081] Done.
+[2026-05-21 16:34:52.923480] LKML Tracker starting...
+  Last check: 2026-05-21 08:24:52.473715+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 16:34:53.230319] Done.
+[2026-05-21 16:44:53.358641] LKML Tracker starting...
+  Last check: 2026-05-21 08:34:52.923543+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 16:44:53.665272] Done.
+[2026-05-21 16:54:53.789582] LKML Tracker starting...
+  Last check: 2026-05-21 08:44:53.358703+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 16:54:54.136120] Done.
+[2026-05-21 17:04:54.254877] LKML Tracker starting...
+  Last check: 2026-05-21 08:54:53.789649+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 17:04:54.766956] Done.
+[2026-05-21 17:14:54.889600] LKML Tracker starting...
+  Last check: 2026-05-21 09:04:54.254939+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 17:14:55.216107] Done.
+[2026-05-21 17:24:55.346745] LKML Tracker starting...
+  Last check: 2026-05-21 09:14:54.889660+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 17:24:55.680829] Done.
+[2026-05-21 17:34:55.812028] LKML Tracker starting...
+  Last check: 2026-05-21 09:24:55.346825+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 17:34:56.143950] Done.
+[2026-05-21 17:44:56.286392] LKML Tracker starting...
+  Last check: 2026-05-21 09:34:55.812255+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 17:44:56.615055] Done.
+[2026-05-21 17:54:56.734952] LKML Tracker starting...
+  Last check: 2026-05-21 09:44:56.286631+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 17:54:57.022835] Done.
+[2026-05-21 18:04:57.150495] LKML Tracker starting...
+  Last check: 2026-05-21 09:54:56.735014+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 18:04:57.494334] Done.
+[2026-05-21 18:14:57.616981] LKML Tracker starting...
+  Last check: 2026-05-21 10:04:57.150557+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 18:14:57.938070] Done.
+[2026-05-21 18:24:58.057007] LKML Tracker starting...
+  Last check: 2026-05-21 10:14:57.617041+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 18:24:58.377946] Done.
+[2026-05-21 18:34:58.498274] LKML Tracker starting...
+  Last check: 2026-05-21 10:24:58.057075+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 18:34:58.830866] Done.
+[2026-05-21 18:44:58.954958] LKML Tracker starting...
+  Last check: 2026-05-21 10:34:58.498339+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 18:44:59.272684] Done.
+[2026-05-21 18:54:59.398329] LKML Tracker starting...
+  Last check: 2026-05-21 10:44:58.955023+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 18:54:59.736349] Done.
+[2026-05-21 19:04:59.862801] LKML Tracker starting...
+  Last check: 2026-05-21 10:54:59.398392+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 19:05:00.180821] Done.
+[2026-05-21 19:15:00.303943] LKML Tracker starting...
+  Last check: 2026-05-21 11:04:59.862864+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 19:15:00.641915] Done.
+[2026-05-21 19:25:00.769554] LKML Tracker starting...
+  Last check: 2026-05-21 11:15:00.304004+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 19:25:01.074353] Done.
+[2026-05-21 19:35:01.212330] LKML Tracker starting...
+  Last check: 2026-05-21 11:25:00.769616+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 19:35:01.476790] Done.
+[2026-05-21 19:45:01.598948] LKML Tracker starting...
+  Last check: 2026-05-21 11:35:01.212395+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 19:45:01.954386] Done.
+[2026-05-21 19:55:02.077758] LKML Tracker starting...
+  Last check: 2026-05-21 11:45:01.599011+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 19:55:02.516839] Done.
+[2026-05-21 20:05:02.641081] LKML Tracker starting...
+  Last check: 2026-05-21 11:55:02.077819+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 20:05:02.971352] Done.
+[2026-05-21 20:15:03.091984] LKML Tracker starting...
+  Last check: 2026-05-21 12:05:02.641142+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 20:15:03.428306] Done.
+[2026-05-21 20:25:03.548549] LKML Tracker starting...
+  Last check: 2026-05-21 12:15:03.092045+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 20:25:03.879099] Done.
+[2026-05-21 20:35:04.006877] LKML Tracker starting...
+  Last check: 2026-05-21 12:25:03.548616+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 20:35:04.349236] Done.
+[2026-05-21 20:45:04.472005] LKML Tracker starting...
+  Last check: 2026-05-21 12:35:04.006939+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 20:45:04.805230] Done.
+[2026-05-21 20:55:04.929932] LKML Tracker starting...
+  Last check: 2026-05-21 12:45:04.472068+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 20:55:05.287289] Done.
+[2026-05-21 21:05:05.422172] LKML Tracker starting...
+  Last check: 2026-05-21 12:55:04.929991+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 21:05:05.740374] Done.
+[2026-05-21 21:15:05.861869] LKML Tracker starting...
+  Last check: 2026-05-21 13:05:05.422238+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 21:15:06.220730] Done.
+[2026-05-21 21:25:06.345132] LKML Tracker starting...
+  Last check: 2026-05-21 13:15:05.861931+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 21:25:06.679172] Done.
+[2026-05-21 21:35:06.802697] LKML Tracker starting...
+  Last check: 2026-05-21 13:25:06.345197+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 21:35:07.125536] Done.
+[2026-05-21 21:45:07.251287] LKML Tracker starting...
+  Last check: 2026-05-21 13:35:06.802762+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 21:45:07.557575] Done.
+[2026-05-21 21:55:07.697318] LKML Tracker starting...
+  Last check: 2026-05-21 13:45:07.251352+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 21:55:08.023890] Done.
+[2026-05-21 22:05:08.160822] LKML Tracker starting...
+  Last check: 2026-05-21 13:55:07.697383+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 22:05:08.504296] Done.
+[2026-05-21 22:15:08.632083] LKML Tracker starting...
+  Last check: 2026-05-21 14:05:08.160891+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 22:15:08.989356] Done.
+[2026-05-21 22:25:09.116442] LKML Tracker starting...
+  Last check: 2026-05-21 14:15:08.632149+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 22:25:09.584538] Done.
+[2026-05-21 22:35:09.705487] LKML Tracker starting...
+  Last check: 2026-05-21 14:25:09.116503+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 22:35:09.998783] Done.
+[2026-05-21 22:45:10.122167] LKML Tracker starting...
+  Last check: 2026-05-21 14:35:09.705548+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 22:45:10.456789] Done.
+[2026-05-21 22:55:10.647986] LKML Tracker starting...
+  Last check: 2026-05-21 14:45:10.122229+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 22:55:10.966810] Done.
+[2026-05-21 23:05:11.116591] LKML Tracker starting...
+  Last check: 2026-05-21 14:55:10.648287+00:00
+  Found 0 emails since 21-May-2026
+  Arm64 folder: 0 total, 0 new
+[2026-05-21 23:05:11.454394] Done.
+[2026-05-21 23:20:27] Last check: 2026-05-18 15:20:05.227284+00:00, searching since 2026-05-18 14:20:05.227284+00:00
+[2026-05-21 23:21:10] Last check: 2026-05-18 15:20:05.227284+00:00, searching since 2026-05-18 14:20:05.227284+00:00
+[2026-05-21 23:21:10]   Creating arm64 folder...
+[2026-05-21 23:21:10]   Found 0 emails since 18-May-2026
+[2026-05-21 23:21:10]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-21 23:21:10]   No ARM-related emails found
+[2026-05-21 23:21:10]   Arm64 folder: 0 total, 0 new
+[2026-05-21 23:21:10] Done.
+[2026-05-21 23:25:11] LKML ARM64 Tracker starting (interval=600s)
+[2026-05-21 23:25:11] LKML ARM64 Tracker starting (interval=600s)
+[2026-05-21 23:25:11] Last check: 2026-05-21 15:21:10.152496+00:00, searching since 2026-05-21 14:21:10.152496+00:00
+[2026-05-21 23:25:11] Last check: 2026-05-21 15:21:10.152496+00:00, searching since 2026-05-21 14:21:10.152496+00:00
+[2026-05-21 23:25:11]   Creating arm64 folder...
+[2026-05-21 23:25:11]   Creating arm64 folder...
+[2026-05-21 23:25:11]   Found 0 emails since 21-May-2026
+[2026-05-21 23:25:11]   Found 0 emails since 21-May-2026
+[2026-05-21 23:25:12]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-21 23:25:12]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-21 23:25:12]   No ARM-related emails found
+[2026-05-21 23:25:12]   No ARM-related emails found
+[2026-05-21 23:25:12]   Arm64 folder: 0 total, 0 new
+[2026-05-21 23:25:12]   Arm64 folder: 0 total, 0 new
+[2026-05-21 23:25:12] Done.
+[2026-05-21 23:25:12] Done.
+[2026-05-21 23:25:56] Last check: 2026-05-21 15:25:11.705773+00:00, searching since 2026-05-21 14:25:11.705773+00:00
+[2026-05-21 23:25:56]   Creating arm64 folder...
+[2026-05-21 23:25:56]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-21 23:25:56]   No ARM-related emails found
+[2026-05-21 23:25:56]   Arm64 folder: 0 total, 0 new
+[2026-05-21 23:25:56] Done.
+[2026-05-21 23:29:53] Last check: 2026-05-18 15:29:53.911775+00:00, searching since 2026-05-18 14:29:53.911775+00:00
+[2026-05-21 23:29:54]   Found 295 emails in INBOX since 18-May-2026
+[2026-05-21 23:29:54]   No ARM-related emails found
+[2026-05-21 23:29:54]   Arm64 folder: 0 total, 0 new
+[2026-05-21 23:29:54] Done.
+[2026-05-21 23:32:55] Last check: 2026-05-18 15:32:55.759414+00:00, searching since 2026-05-18 14:32:55.759414+00:00
+[2026-05-21 23:32:56]   Found 297 emails in INBOX since 18-May-2026
+[2026-05-21 23:33:14]   Moved 124 ARM-related emails to arm64 folder
+[2026-05-21 23:33:14]   Arm64 folder: 124 total, 124 new
+[2026-05-21 23:33:15]   Analyzing: KVM: arm64: Add reclaim interface for the pKVM heap alloc (1 msgs)
+[2026-05-21 23:34:02]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_reclaim_interface_for_the_pKVM_heap_alloc.md
+[2026-05-21 23:34:02]   Analyzing: KVM: arm64: Alloc pkvm_hyp_vm using pKVM heap allocator (1 msgs)
+[2026-05-21 23:34:54]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Alloc_pkvm_hyp_vm_using_pKVM_heap_allocator.md
+[2026-05-21 23:34:54]   Analyzing: KVM: arm64: Move hyp_vm refcount into the structure (1 msgs)
+[2026-05-21 23:35:17] Last check: 2026-05-18 15:32:55.759414+00:00, searching since 2026-05-18 14:32:55.759414+00:00
+[2026-05-21 23:35:17] Last check: 2026-05-18 15:32:55.759414+00:00, searching since 2026-05-18 14:32:55.759414+00:00
+[2026-05-21 23:35:17]   Creating arm64 folder...
+[2026-05-21 23:35:17]   Creating arm64 folder...
+[2026-05-21 23:35:17]   Found 0 emails since 18-May-2026
+[2026-05-21 23:35:17]   Found 0 emails since 18-May-2026
+[2026-05-21 23:35:17]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-21 23:35:17]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-21 23:35:17]   No ARM-related emails found
+[2026-05-21 23:35:17]   No ARM-related emails found
+[2026-05-21 23:35:18]   Arm64 folder: 0 total, 0 new
+[2026-05-21 23:35:18]   Arm64 folder: 0 total, 0 new
+[2026-05-21 23:35:18] Done.
+[2026-05-21 23:35:18] Done.
+[2026-05-21 23:35:42]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Move_hyp_vm_refcount_into_the_structure.md
+[2026-05-21 23:35:42]   Analyzing: KVM: arm64: Add selftests for the pKVM heap allocator (1 msgs)
+[2026-05-21 23:36:36]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_selftests_for_the_pKVM_heap_allocator.md
+[2026-05-21 23:36:36]   Analyzing: KVM: arm64: Alloc pkvm_hyp_vcpu using pKVM heap allocator (1 msgs)
+[2026-05-21 23:37:50]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Alloc_pkvm_hyp_vcpu_using_pKVM_heap_allocator.md
+[2026-05-21 23:37:50]   Analyzing: KVM: arm64: Filter out non-kernel addresses in kern_hyp_va (1 msgs)
+[2026-05-21 23:38:21]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Filter_out_non-kernel_addresses_in_kern_hyp_va.md
+[2026-05-21 23:38:21]   Analyzing: KVM: arm64: Add pkvm_hyp_req infrastructure (1 msgs)
+[2026-05-21 23:39:03]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_pkvm_hyp_req_infrastructure.md
+[2026-05-21 23:39:03]   Analyzing: KVM: arm64: Add topup interface for the pKVM heap allocator (1 msgs)
+[2026-05-21 23:39:46]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_topup_interface_for_the_pKVM_heap_allocator.md
+[2026-05-21 23:39:46]   Analyzing: arm64: RMI: Add SMC definitions for calling the RMM (1 msgs)
+[2026-05-21 23:40:40]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_RMI_Add_SMC_definitions_for_calling_the_RMM.md
+[2026-05-21 23:40:40]   Analyzing: KVM: arm64: Add a heap allocator for the pKVM hyp (1 msgs)
+[2026-05-21 23:41:22]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_a_heap_allocator_for_the_pKVM_hyp.md
+[2026-05-21 23:41:22]   Analyzing: iommu/arm-smmu-v3: Fix device crash on kdump kernel (1 msgs)
+[2026-05-21 23:42:36]   Wrote: /Users/imagent4bd/workspace/lkml/iommu_arm-smmu-v3_Fix_device_crash_on_kdump_kernel.md
+[2026-05-21 23:42:36]   Analyzing: iommu/arm-smmu-v3: Detect ARM_SMMU_OPT_KDUMP_ADOPT in probe() (1 msgs)
+[2026-05-21 23:45:13] Last check: 2026-05-18 15:45:13.003886+00:00, searching since 2026-05-18 14:45:13.003886+00:00
+[2026-05-21 23:45:13]   Found 186 emails in INBOX since 18-May-2026
+[2026-05-21 23:45:16]   Moved 3 ARM-related emails to arm64 folder
+[2026-05-21 23:45:17]   Arm64 folder: 127 total, 127 new
+[2026-05-21 23:45:17]   Analyzing: KVM: arm64: Add reclaim interface for the pKVM heap alloc (1 msgs)
+[2026-05-21 23:45:23] Last check: 2026-05-18 15:45:13.003886+00:00, searching since 2026-05-18 14:45:13.003886+00:00
+[2026-05-21 23:45:23] Last check: 2026-05-18 15:45:13.003886+00:00, searching since 2026-05-18 14:45:13.003886+00:00
+[2026-05-21 23:45:24]   Creating arm64 folder...
+[2026-05-21 23:45:24]   Creating arm64 folder...
+[2026-05-21 23:45:24]   Found 0 emails since 18-May-2026
+[2026-05-21 23:45:24]   Found 0 emails since 18-May-2026
+[2026-05-21 23:45:24]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-21 23:45:24]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-21 23:45:24]   No ARM-related emails found
+[2026-05-21 23:45:24]   No ARM-related emails found
+[2026-05-21 23:45:24]   Arm64 folder: 0 total, 0 new
+[2026-05-21 23:45:24]   Arm64 folder: 0 total, 0 new
+[2026-05-21 23:45:24] Done.
+[2026-05-21 23:45:24] Done.
+[2026-05-21 23:45:51]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_reclaim_interface_for_the_pKVM_heap_alloc.md
+[2026-05-21 23:45:51]   Analyzing: KVM: arm64: Alloc pkvm_hyp_vm using pKVM heap allocator (1 msgs)
+[2026-05-21 23:46:37]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Alloc_pkvm_hyp_vm_using_pKVM_heap_allocator.md
+[2026-05-21 23:46:37]   Analyzing: KVM: arm64: Move hyp_vm refcount into the structure (1 msgs)
+[2026-05-21 23:47:26]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Move_hyp_vm_refcount_into_the_structure.md
+[2026-05-21 23:47:26]   Analyzing: KVM: arm64: Add selftests for the pKVM heap allocator (1 msgs)
+[2026-05-21 23:48:12]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_selftests_for_the_pKVM_heap_allocator.md
+[2026-05-21 23:48:12]   Analyzing: KVM: arm64: Alloc pkvm_hyp_vcpu using pKVM heap allocator (1 msgs)
+[2026-05-21 23:48:54]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Alloc_pkvm_hyp_vcpu_using_pKVM_heap_allocator.md
+[2026-05-21 23:48:54]   Analyzing: KVM: arm64: Filter out non-kernel addresses in kern_hyp_va (1 msgs)
+[2026-05-21 23:49:38]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Filter_out_non-kernel_addresses_in_kern_hyp_va.md
+[2026-05-21 23:49:38]   Analyzing: KVM: arm64: Add pkvm_hyp_req infrastructure (1 msgs)
+[2026-05-21 23:50:08]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_pkvm_hyp_req_infrastructure.md
+[2026-05-21 23:50:08]   Analyzing: KVM: arm64: Add topup interface for the pKVM heap allocator (1 msgs)
+[2026-05-21 23:50:54]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_topup_interface_for_the_pKVM_heap_allocator.md
+[2026-05-21 23:50:54]   Analyzing: arm64: RMI: Add SMC definitions for calling the RMM (2 msgs)
+[2026-05-21 23:51:42]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_RMI_Add_SMC_definitions_for_calling_the_RMM.md
+[2026-05-21 23:51:42]   Analyzing: KVM: arm64: Add a heap allocator for the pKVM hyp (1 msgs)
+[2026-05-21 23:52:27]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_a_heap_allocator_for_the_pKVM_hyp.md
+[2026-05-21 23:52:27]   Analyzing: iommu/arm-smmu-v3: Fix device crash on kdump kernel (1 msgs)
+[2026-05-21 23:53:16]   Wrote: /Users/imagent4bd/workspace/lkml/iommu_arm-smmu-v3_Fix_device_crash_on_kdump_kernel.md
+[2026-05-21 23:53:16]   Analyzing: iommu/arm-smmu-v3: Detect ARM_SMMU_OPT_KDUMP_ADOPT in probe() (1 msgs)
+[2026-05-21 23:54:25]   Wrote: /Users/imagent4bd/workspace/lkml/iommu_arm-smmu-v3_Detect_ARM_SMMU_OPT_KDUMP_ADOPT_in_probe.md
+[2026-05-21 23:54:25]   Analyzing: iommu/arm-smmu-v3: Do not enable EVTQ/PRIQ interrupts in kdump kernel (1 msgs)
+[2026-05-21 23:55:30] Last check: 2026-05-21 15:45:23.910754+00:00, searching since 2026-05-21 14:45:23.910754+00:00
+[2026-05-21 23:55:30] Last check: 2026-05-21 15:45:23.910754+00:00, searching since 2026-05-21 14:45:23.910754+00:00
+[2026-05-21 23:55:30]   Creating arm64 folder...
+[2026-05-21 23:55:30]   Creating arm64 folder...
+[2026-05-21 23:55:31]   Found 0 emails since 21-May-2026
+[2026-05-21 23:55:31]   Found 0 emails since 21-May-2026
+[2026-05-21 23:55:31]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-21 23:55:31]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-21 23:55:31]   No ARM-related emails found
+[2026-05-21 23:55:31]   No ARM-related emails found
+[2026-05-21 23:55:31]   Arm64 folder: 0 total, 0 new
+[2026-05-21 23:55:31]   Arm64 folder: 0 total, 0 new
+[2026-05-21 23:55:31] Done.
+[2026-05-21 23:55:31] Done.
+[2026-05-21 23:55:39]   Wrote: /Users/imagent4bd/workspace/lkml/iommu_arm-smmu-v3_Do_not_enable_EVTQ_PRIQ_interrupts_in_kdump_kernel.md
+[2026-05-21 23:55:39]   Analyzing: KVM: arm64: Alloc simple_buffer_page using pKVM hyp allocator (1 msgs)
+[2026-05-21 23:56:25]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Alloc_simple_buffer_page_using_pKVM_hyp_allocator.md
+[2026-05-21 23:56:25]   Analyzing: KVM: arm64: Handle PKVM_HYP_REQ_HYP_ALLOC request (1 msgs)
+[2026-05-21 23:57:19]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Handle_PKVM_HYP_REQ_HYP_ALLOC_request.md
+[2026-05-21 23:57:19]   Analyzing: KVM: arm64: Add a shrinker for pKVM (1 msgs)
+[2026-05-21 23:58:00]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_a_shrinker_for_pKVM.md
+[2026-05-21 23:58:00]   Analyzing: Documentation: KVM: Document guest-visible compatibility expectations (1 msgs)
+[2026-05-21 23:58:45]   Wrote: /Users/imagent4bd/workspace/lkml/Documentation_KVM_Document_guest-visible_compatibility_expectations.md
+[2026-05-21 23:58:45]   Analyzing: mfd: core: Add firmware-node support to MFD cells (3 msgs)
+[2026-05-21 23:59:47]   Wrote: /Users/imagent4bd/workspace/lkml/mfd_core_Add_firmware-node_support_to_MFD_cells.md
+[2026-05-21 23:59:47]   Analyzing: iommu/arm-smmu-v3: Retain CR0_SMMUEN during kdump device reset (1 msgs)
+[2026-05-22 00:00:48]   Wrote: /Users/imagent4bd/workspace/lkml/iommu_arm-smmu-v3_Retain_CR0_SMMUEN_during_kdump_device_reset.md
+[2026-05-22 00:00:48]   Analyzing: dt-bindings: arm: ras: Introduce bindings for ARM AEST (1 msgs)
+[2026-05-22 00:01:32]   Wrote: /Users/imagent4bd/workspace/lkml/dt-bindings_arm_ras_Introduce_bindings_for_ARM_AEST.md
+[2026-05-22 00:01:32]   Analyzing: perf evsel: Add alternate_hw_config and use in evsel__match (1 msgs)
+[2026-05-22 00:02:08]   Wrote: /Users/imagent4bd/workspace/lkml/perf_evsel_Add_alternate_hw_config_and_use_in_evsel__match.md
+[2026-05-22 00:02:08]   Analyzing: mm: Add ptep_try_install() for lockless empty-slot installs (1 msgs)
+[2026-05-22 00:03:02]   Wrote: /Users/imagent4bd/workspace/lkml/mm_Add_ptep_try_install_for_lockless_empty-slot_installs.md
+[2026-05-22 00:03:02]   Analyzing: KVM: arm64: Don't perform vgic-v2 lazy init on timer injection (1 msgs)
+[2026-05-22 00:03:31]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Don_t_perform_vgic-v2_lazy_init_on_timer_injection.md
+[2026-05-22 00:03:31]   Analyzing: PCI: Allow ATS to be always on for CXL.cache capable devices (1 msgs)
+[2026-05-22 00:03:55]   Wrote: /Users/imagent4bd/workspace/lkml/PCI_Allow_ATS_to_be_always_on_for_CXL_cache_capable_devices.md
+[2026-05-22 00:03:55]   Analyzing: iommu/arm-smmu-v3: Allow ATS to be always on (1 msgs)
+[2026-05-22 00:04:41]   Wrote: /Users/imagent4bd/workspace/lkml/iommu_arm-smmu-v3_Allow_ATS_to_be_always_on.md
+[2026-05-22 00:04:41]   Analyzing: PCI: Allow ATS to be always on for pre-CXL devices (1 msgs)
+[2026-05-22 00:05:27]   Wrote: /Users/imagent4bd/workspace/lkml/PCI_Allow_ATS_to_be_always_on_for_pre-CXL_devices.md
+[2026-05-22 00:05:27]   Analyzing: KVM: arm64: Validate the offset to the mem access descriptor (1 msgs)
+[2026-05-22 00:05:36] Last check: 2026-05-21 15:55:30.707589+00:00, searching since 2026-05-21 14:55:30.707589+00:00
+[2026-05-22 00:05:36] Last check: 2026-05-21 15:55:30.707589+00:00, searching since 2026-05-21 14:55:30.707589+00:00
+[2026-05-22 00:05:36]   Creating arm64 folder...
+[2026-05-22 00:05:36]   Creating arm64 folder...
+[2026-05-22 00:05:36]   Found 0 emails since 21-May-2026
+[2026-05-22 00:05:36]   Found 0 emails since 21-May-2026
+[2026-05-22 00:05:36]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-22 00:05:36]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-22 00:05:36]   No ARM-related emails found
+[2026-05-22 00:05:36]   No ARM-related emails found
+[2026-05-22 00:05:36]   Arm64 folder: 0 total, 0 new
+[2026-05-22 00:05:36]   Arm64 folder: 0 total, 0 new
+[2026-05-22 00:05:36] Done.
+[2026-05-22 00:05:36] Done.
+[2026-05-22 00:06:18]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Validate_the_offset_to_the_mem_access_descriptor.md
+[2026-05-22 00:06:18]   Analyzing: arm_mpam: resctrl: Add resctrl_arch_cntr_read() & resctrl_arch_reset_cntr() (1 msgs)
+[2026-05-22 00:07:24]   Wrote: /Users/imagent4bd/workspace/lkml/arm_mpam_resctrl_Add_resctrl_arch_cntr_read_resctrl_arch_reset_cntr.md
+[2026-05-22 00:07:24]   Analyzing: arm_mpam: resctrl: Add resctrl_arch_config_cntr() for ABMC use (1 msgs)
+[2026-05-22 00:08:26]   Wrote: /Users/imagent4bd/workspace/lkml/arm_mpam_resctrl_Add_resctrl_arch_config_cntr_for_ABMC_use.md
+[2026-05-22 00:08:26]   Analyzing: arm_ffa, KVM: Fix FF-A emad offset calculations (1 msgs)
+[2026-05-22 00:09:28]   Wrote: /Users/imagent4bd/workspace/lkml/arm_ffa_KVM_Fix_FF-A_emad_offset_calculations.md
+[2026-05-22 00:09:28]   Analyzing: mm/vmalloc: Extend page table walk to support larger page_shift sizes and eliminate page table rewalk (1 msgs)
+[2026-05-22 00:10:13]   Wrote: /Users/imagent4bd/workspace/lkml/mm_vmalloc_Extend_page_table_walk_to_support_larger_page_shift_sizes_and_eliminate_page_table_rewalk.md
+[2026-05-22 00:10:13]   Analyzing: arm_mpam: resctrl: Pre-allocate assignable monitors (1 msgs)
+[2026-05-22 00:11:20]   Wrote: /Users/imagent4bd/workspace/lkml/arm_mpam_resctrl_Pre-allocate_assignable_monitors.md
+[2026-05-22 00:11:20]   Analyzing: KVM: arm64: Fix CONFIG_PKVM_DISABLE_STAGE2_ON_PANIC (1 msgs)
+[2026-05-22 00:11:48]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Fix_CONFIG_PKVM_DISABLE_STAGE2_ON_PANIC.md
+[2026-05-22 00:11:48]   Analyzing: arm64: mpam: Add memory bandwidth usage (MBWU) documentation (1 msgs)
+[2026-05-22 00:12:41]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_mpam_Add_memory_bandwidth_usage_MBWU_documentation.md
+[2026-05-22 00:12:41]   Analyzing: mm: Add ptep_try_set() for lockless empty-slot installs (1 msgs)
+[2026-05-22 00:13:37]   Wrote: /Users/imagent4bd/workspace/lkml/mm_Add_ptep_try_set_for_lockless_empty-slot_installs.md
+[2026-05-22 00:13:37]   Analyzing: bpf/arena: Add bpf_arena_map_kern_vm_start() and bpf_prog_arena() (2 msgs)
+[2026-05-22 00:14:09]   Wrote: /Users/imagent4bd/workspace/lkml/bpf_arena_Add_bpf_arena_map_kern_vm_start_and_bpf_prog_arena.md
+[2026-05-22 00:14:09]   Analyzing: bpf: Add bpf_struct_ops_for_each_prog() (1 msgs)
+[2026-05-22 00:15:00]   Wrote: /Users/imagent4bd/workspace/lkml/bpf_Add_bpf_struct_ops_for_each_prog.md
+[2026-05-22 00:15:00]   Analyzing: sched_ext: Convert ops.set_cmask() to arena-resident cmask (2 msgs)
+[2026-05-22 00:15:42] Last check: 2026-05-21 16:05:36.165815+00:00, searching since 2026-05-21 15:05:36.165815+00:00
+[2026-05-22 00:15:42] Last check: 2026-05-21 16:05:36.165815+00:00, searching since 2026-05-21 15:05:36.165815+00:00
+[2026-05-22 00:15:42]   Creating arm64 folder...
+[2026-05-22 00:15:42]   Creating arm64 folder...
+[2026-05-22 00:15:42]   Found 0 emails since 21-May-2026
+[2026-05-22 00:15:42]   Found 0 emails since 21-May-2026
+[2026-05-22 00:15:42]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-22 00:15:42]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-22 00:15:42]   No ARM-related emails found
+[2026-05-22 00:15:42]   No ARM-related emails found
+[2026-05-22 00:15:42]   Arm64 folder: 0 total, 0 new
+[2026-05-22 00:15:42]   Arm64 folder: 0 total, 0 new
+[2026-05-22 00:15:42] Done.
+[2026-05-22 00:15:42] Done.
+[2026-05-22 00:17:14] Last check: 2026-05-18 16:16:50.094380+00:00, searching since 2026-05-18 15:16:50.094380+00:00
+[2026-05-22 00:17:14]   Found 189 emails in INBOX since 18-May-2026
+[2026-05-22 00:17:22]   Moved 4 ARM-related emails to arm64 folder
+[2026-05-22 00:17:22]   Arm64 folder: 131 total, 131 new
+[2026-05-22 00:17:26]   Analyzing: KVM: arm64: Add reclaim interface for the pKVM heap alloc (1 msgs)
+[2026-05-22 00:18:26]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_reclaim_interface_for_the_pKVM_heap_alloc.md
+[2026-05-22 00:18:26]   Analyzing: KVM: arm64: Alloc pkvm_hyp_vm using pKVM heap allocator (1 msgs)
+[2026-05-22 00:19:31]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Alloc_pkvm_hyp_vm_using_pKVM_heap_allocator.md
+[2026-05-22 00:19:31]   Analyzing: KVM: arm64: Move hyp_vm refcount into the structure (1 msgs)
+[2026-05-22 00:20:18]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Move_hyp_vm_refcount_into_the_structure.md
+[2026-05-22 00:20:18]   Analyzing: KVM: arm64: Add selftests for the pKVM heap allocator (1 msgs)
+[2026-05-22 00:21:10]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_selftests_for_the_pKVM_heap_allocator.md
+[2026-05-22 00:21:10]   Analyzing: KVM: arm64: Alloc pkvm_hyp_vcpu using pKVM heap allocator (1 msgs)
+[2026-05-22 00:21:57]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Alloc_pkvm_hyp_vcpu_using_pKVM_heap_allocator.md
+[2026-05-22 00:21:57]   Analyzing: KVM: arm64: Filter out non-kernel addresses in kern_hyp_va (1 msgs)
+[2026-05-22 00:22:33]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Filter_out_non-kernel_addresses_in_kern_hyp_va.md
+[2026-05-22 00:22:33]   Analyzing: KVM: arm64: Add pkvm_hyp_req infrastructure (1 msgs)
+[2026-05-22 00:23:44]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_pkvm_hyp_req_infrastructure.md
+[2026-05-22 00:23:44]   Analyzing: KVM: arm64: Add topup interface for the pKVM heap allocator (1 msgs)
+[2026-05-22 00:24:32]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_topup_interface_for_the_pKVM_heap_allocator.md
+[2026-05-22 00:24:32]   Analyzing: arm64: RMI: Add SMC definitions for calling the RMM (2 msgs)
+[2026-05-22 00:25:43]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_RMI_Add_SMC_definitions_for_calling_the_RMM.md
+[2026-05-22 00:25:43]   Analyzing: KVM: arm64: Add a heap allocator for the pKVM hyp (1 msgs)
+[2026-05-22 00:25:48] Last check: 2026-05-18 16:16:50.094380+00:00, searching since 2026-05-18 15:16:50.094380+00:00
+[2026-05-22 00:25:48] Last check: 2026-05-18 16:16:50.094380+00:00, searching since 2026-05-18 15:16:50.094380+00:00
+[2026-05-22 00:25:48]   Creating arm64 folder...
+[2026-05-22 00:25:48]   Creating arm64 folder...
+[2026-05-22 00:25:48]   Found 0 emails since 18-May-2026
+[2026-05-22 00:25:48]   Found 0 emails since 18-May-2026
+[2026-05-22 00:25:48]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-22 00:25:48]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-22 00:25:48]   No ARM-related emails found
+[2026-05-22 00:25:48]   No ARM-related emails found
+[2026-05-22 00:25:48]   Arm64 folder: 0 total, 0 new
+[2026-05-22 00:25:48]   Arm64 folder: 0 total, 0 new
+[2026-05-22 00:25:48] Done.
+[2026-05-22 00:25:48] Done.
+[2026-05-22 00:26:13]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_a_heap_allocator_for_the_pKVM_hyp.md
+[2026-05-22 00:26:13]   Analyzing: iommu/arm-smmu-v3: Fix device crash on kdump kernel (1 msgs)
+[2026-05-22 00:27:05]   Wrote: /Users/imagent4bd/workspace/lkml/iommu_arm-smmu-v3_Fix_device_crash_on_kdump_kernel.md
+[2026-05-22 00:27:05]   Analyzing: iommu/arm-smmu-v3: Detect ARM_SMMU_OPT_KDUMP_ADOPT in probe() (1 msgs)
+[2026-05-22 00:27:56]   Wrote: /Users/imagent4bd/workspace/lkml/iommu_arm-smmu-v3_Detect_ARM_SMMU_OPT_KDUMP_ADOPT_in_probe.md
+[2026-05-22 00:27:56]   Analyzing: iommu/arm-smmu-v3: Do not enable EVTQ/PRIQ interrupts in kdump kernel (1 msgs)
+[2026-05-22 00:28:48]   Wrote: /Users/imagent4bd/workspace/lkml/iommu_arm-smmu-v3_Do_not_enable_EVTQ_PRIQ_interrupts_in_kdump_kernel.md
+[2026-05-22 00:28:48]   Analyzing: KVM: arm64: Alloc simple_buffer_page using pKVM hyp allocator (1 msgs)
+[2026-05-22 00:29:44]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Alloc_simple_buffer_page_using_pKVM_hyp_allocator.md
+[2026-05-22 00:29:44]   Analyzing: KVM: arm64: Handle PKVM_HYP_REQ_HYP_ALLOC request (1 msgs)
+[2026-05-22 00:30:36]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Handle_PKVM_HYP_REQ_HYP_ALLOC_request.md
+[2026-05-22 00:30:36]   Analyzing: KVM: arm64: Add a shrinker for pKVM (1 msgs)
+[2026-05-22 00:31:27]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_a_shrinker_for_pKVM.md
+[2026-05-22 00:31:27]   Analyzing: Documentation: KVM: Document guest-visible compatibility expectations (1 msgs)
+[2026-05-22 00:32:11]   Wrote: /Users/imagent4bd/workspace/lkml/Documentation_KVM_Document_guest-visible_compatibility_expectations.md
+[2026-05-22 00:32:11]   Analyzing: mfd: core: Add firmware-node support to MFD cells (3 msgs)
+[2026-05-22 00:32:56]   Wrote: /Users/imagent4bd/workspace/lkml/mfd_core_Add_firmware-node_support_to_MFD_cells.md
+[2026-05-22 00:32:56]   Analyzing: iommu/arm-smmu-v3: Retain CR0_SMMUEN during kdump device reset (1 msgs)
+[2026-05-22 00:34:09]   Wrote: /Users/imagent4bd/workspace/lkml/iommu_arm-smmu-v3_Retain_CR0_SMMUEN_during_kdump_device_reset.md
+[2026-05-22 00:34:09]   Analyzing: dt-bindings: arm: ras: Introduce bindings for ARM AEST (1 msgs)
+[2026-05-22 00:34:52]   Wrote: /Users/imagent4bd/workspace/lkml/dt-bindings_arm_ras_Introduce_bindings_for_ARM_AEST.md
+[2026-05-22 00:34:52]   Analyzing: perf evsel: Add alternate_hw_config and use in evsel__match (1 msgs)
+[2026-05-22 00:35:54] Last check: 2026-05-18 16:16:50.094380+00:00, searching since 2026-05-18 15:16:50.094380+00:00
+[2026-05-22 00:35:54] Last check: 2026-05-18 16:16:50.094380+00:00, searching since 2026-05-18 15:16:50.094380+00:00
+[2026-05-22 00:35:54]   Creating arm64 folder...
+[2026-05-22 00:35:54]   Creating arm64 folder...
+[2026-05-22 00:35:54]   Found 0 emails since 18-May-2026
+[2026-05-22 00:35:54]   Found 0 emails since 18-May-2026
+[2026-05-22 00:35:54]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-22 00:35:54]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-22 00:35:54]   No ARM-related emails found
+[2026-05-22 00:35:54]   No ARM-related emails found
+[2026-05-22 00:35:55]   Arm64 folder: 0 total, 0 new
+[2026-05-22 00:35:55]   Arm64 folder: 0 total, 0 new
+[2026-05-22 00:35:55] Done.
+[2026-05-22 00:35:55] Done.
+[2026-05-22 00:36:04]   Wrote: /Users/imagent4bd/workspace/lkml/perf_evsel_Add_alternate_hw_config_and_use_in_evsel__match.md
+[2026-05-22 00:36:04]   Analyzing: mm: Add ptep_try_install() for lockless empty-slot installs (1 msgs)
+[2026-05-22 00:37:01]   Wrote: /Users/imagent4bd/workspace/lkml/mm_Add_ptep_try_install_for_lockless_empty-slot_installs.md
+[2026-05-22 00:37:01]   Analyzing: KVM: arm64: Don't perform vgic-v2 lazy init on timer injection (1 msgs)
+[2026-05-22 00:37:34]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Don_t_perform_vgic-v2_lazy_init_on_timer_injection.md
+[2026-05-22 00:37:34]   Analyzing: PCI: Allow ATS to be always on for CXL.cache capable devices (1 msgs)
+[2026-05-22 00:38:16]   Wrote: /Users/imagent4bd/workspace/lkml/PCI_Allow_ATS_to_be_always_on_for_CXL_cache_capable_devices.md
+[2026-05-22 00:38:16]   Analyzing: iommu/arm-smmu-v3: Allow ATS to be always on (1 msgs)
+[2026-05-22 00:39:04]   Wrote: /Users/imagent4bd/workspace/lkml/iommu_arm-smmu-v3_Allow_ATS_to_be_always_on.md
+[2026-05-22 00:39:04]   Analyzing: PCI: Allow ATS to be always on for pre-CXL devices (1 msgs)
+[2026-05-22 00:40:00]   Wrote: /Users/imagent4bd/workspace/lkml/PCI_Allow_ATS_to_be_always_on_for_pre-CXL_devices.md
+[2026-05-22 00:40:00]   Analyzing: KVM: arm64: Validate the offset to the mem access descriptor (1 msgs)
+[2026-05-22 00:40:50]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Validate_the_offset_to_the_mem_access_descriptor.md
+[2026-05-22 00:40:50]   Analyzing: arm_mpam: resctrl: Add resctrl_arch_cntr_read() & resctrl_arch_reset_cntr() (1 msgs)
+[2026-05-22 00:41:43]   Wrote: /Users/imagent4bd/workspace/lkml/arm_mpam_resctrl_Add_resctrl_arch_cntr_read_resctrl_arch_reset_cntr.md
+[2026-05-22 00:41:43]   Analyzing: arm_mpam: resctrl: Add resctrl_arch_config_cntr() for ABMC use (1 msgs)
+[2026-05-22 00:42:26]   Wrote: /Users/imagent4bd/workspace/lkml/arm_mpam_resctrl_Add_resctrl_arch_config_cntr_for_ABMC_use.md
+[2026-05-22 00:42:26]   Analyzing: arm_ffa, KVM: Fix FF-A emad offset calculations (1 msgs)
+[2026-05-22 00:43:31]   Wrote: /Users/imagent4bd/workspace/lkml/arm_ffa_KVM_Fix_FF-A_emad_offset_calculations.md
+[2026-05-22 00:43:31]   Analyzing: mm/vmalloc: Extend page table walk to support larger page_shift sizes and eliminate page table rewalk (1 msgs)
+[2026-05-22 00:44:19]   Wrote: /Users/imagent4bd/workspace/lkml/mm_vmalloc_Extend_page_table_walk_to_support_larger_page_shift_sizes_and_eliminate_page_table_rewalk.md
+[2026-05-22 00:44:19]   Analyzing: arm_mpam: resctrl: Pre-allocate assignable monitors (1 msgs)
+[2026-05-22 00:45:21]   Wrote: /Users/imagent4bd/workspace/lkml/arm_mpam_resctrl_Pre-allocate_assignable_monitors.md
+[2026-05-22 00:45:21]   Analyzing: KVM: arm64: Fix CONFIG_PKVM_DISABLE_STAGE2_ON_PANIC (1 msgs)
+[2026-05-22 00:46:00] Last check: 2026-05-18 16:16:50.094380+00:00, searching since 2026-05-18 15:16:50.094380+00:00
+[2026-05-22 00:46:00] Last check: 2026-05-18 16:16:50.094380+00:00, searching since 2026-05-18 15:16:50.094380+00:00
+[2026-05-22 00:46:01]   Creating arm64 folder...
+[2026-05-22 00:46:01]   Creating arm64 folder...
+[2026-05-22 00:46:01]   Found 0 emails since 18-May-2026
+[2026-05-22 00:46:01]   Found 0 emails since 18-May-2026
+[2026-05-22 00:46:01]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-22 00:46:01]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-22 00:46:01]   No ARM-related emails found
+[2026-05-22 00:46:01]   No ARM-related emails found
+[2026-05-22 00:46:01]   Arm64 folder: 0 total, 0 new
+[2026-05-22 00:46:01]   Arm64 folder: 0 total, 0 new
+[2026-05-22 00:46:01] Done.
+[2026-05-22 00:46:01] Done.
+[2026-05-22 00:46:15]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Fix_CONFIG_PKVM_DISABLE_STAGE2_ON_PANIC.md
+[2026-05-22 00:46:15]   Analyzing: arm64: mpam: Add memory bandwidth usage (MBWU) documentation (1 msgs)
+[2026-05-22 00:46:56]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_mpam_Add_memory_bandwidth_usage_MBWU_documentation.md
+[2026-05-22 00:46:56]   Analyzing: mm: Add ptep_try_set() for lockless empty-slot installs (1 msgs)
+[2026-05-22 00:47:53]   Wrote: /Users/imagent4bd/workspace/lkml/mm_Add_ptep_try_set_for_lockless_empty-slot_installs.md
+[2026-05-22 00:47:53]   Analyzing: bpf/arena: Add bpf_arena_map_kern_vm_start() and bpf_prog_arena() (2 msgs)
+[2026-05-22 00:48:26]   Wrote: /Users/imagent4bd/workspace/lkml/bpf_arena_Add_bpf_arena_map_kern_vm_start_and_bpf_prog_arena.md
+[2026-05-22 00:48:26]   Analyzing: bpf: Add bpf_struct_ops_for_each_prog() (1 msgs)
+[2026-05-22 00:49:03]   Wrote: /Users/imagent4bd/workspace/lkml/bpf_Add_bpf_struct_ops_for_each_prog.md
+[2026-05-22 00:49:03]   Analyzing: sched_ext: Convert ops.set_cmask() to arena-resident cmask (2 msgs)
+[2026-05-22 00:49:43]   Wrote: /Users/imagent4bd/workspace/lkml/sched_ext_Convert_ops_set_cmask_to_arena-resident_cmask.md
+[2026-05-22 00:49:43]   Analyzing: arm64: RMI: Ensure that the RMM has GPT entries for memory (2 msgs)
+[2026-05-22 00:50:53]   Analyzing: sched_ext: Sub-allocator over kernel-claimed BPF arena pages (1 msgs)
+[2026-05-22 00:51:31]   Wrote: /Users/imagent4bd/workspace/lkml/sched_ext_Sub-allocator_over_kernel-claimed_BPF_arena_pages.md
+[2026-05-22 00:51:31]   Analyzing: arm64: mm: call pagetable dtor when freeing hot-removed page tables (1 msgs)
+[2026-05-22 00:52:21]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_mm_call_pagetable_dtor_when_freeing_hot-removed_page_tables.md
+[2026-05-22 00:52:21]   Analyzing: KVM: arm64: nv: Don't save/restore FP register during a nested ERET or exception (2 msgs)
+[2026-05-22 00:53:16]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_nv_Don_t_save_restore_FP_register_during_a_nested_ERET_or_exception.md
+[2026-05-22 00:53:16]   Analyzing: [RFC PATCH 2/2] arm64: mm: add SMCCC-backed cache invalidate provider (2 msgs)
+[2026-05-22 00:54:02]   Wrote: /Users/imagent4bd/workspace/lkml/RFC_PATCH_2_2_arm64_mm_add_SMCCC-backed_cache_invalidate_provider.md
+[2026-05-22 00:54:02]   Analyzing: arm64: tlb: Flush walk cache when unsharing PMD tables (3 msgs)
+[2026-05-22 00:54:51]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_tlb_Flush_walk_cache_when_unsharing_PMD_tables.md
+[2026-05-22 00:54:51]   Analyzing: KVM: arm64: Fix meta-page unsharing in pKVM hyp tracing (2 msgs)
+[2026-05-22 00:55:51]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Fix_meta-page_unsharing_in_pKVM_hyp_tracing.md
+[2026-05-22 00:55:51]   Analyzing: KVM: arm64: Fix bounds checking in do_ffa_mem_reclaim() (3 msgs)
+[2026-05-22 00:56:06] Last check: 2026-05-18 16:16:50.094380+00:00, searching since 2026-05-18 15:16:50.094380+00:00
+[2026-05-22 00:56:06] Last check: 2026-05-18 16:16:50.094380+00:00, searching since 2026-05-18 15:16:50.094380+00:00
+[2026-05-22 00:56:07]   Creating arm64 folder...
+[2026-05-22 00:56:07]   Creating arm64 folder...
+[2026-05-22 00:56:07]   Found 0 emails since 18-May-2026
+[2026-05-22 00:56:07]   Found 0 emails since 18-May-2026
+[2026-05-22 00:56:07]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-22 00:56:07]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-22 00:56:07]   No ARM-related emails found
+[2026-05-22 00:56:07]   No ARM-related emails found
+[2026-05-22 00:56:07]   Arm64 folder: 0 total, 0 new
+[2026-05-22 00:56:07]   Arm64 folder: 0 total, 0 new
+[2026-05-22 00:56:07] Done.
+[2026-05-22 00:56:07] Done.
+[2026-05-22 00:56:42]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Fix_bounds_checking_in_do_ffa_mem_reclaim.md
+[2026-05-22 00:56:42]   Analyzing: kunit: add clock tests for smp_cond_load_relaxed_timeout() (1 msgs)
+[2026-05-22 00:57:21]   Wrote: /Users/imagent4bd/workspace/lkml/kunit_add_clock_tests_for_smp_cond_load_relaxed_timeout.md
+[2026-05-22 00:57:21]   Analyzing: arm64: mm: Add note about overlays in PIE_EL1 (1 msgs)
+[2026-05-22 00:58:06]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_mm_Add_note_about_overlays_in_PIE_EL1.md
+[2026-05-22 00:58:06]   Analyzing: [RFC] arm64: mmu: use range based TLB flushing when hot unplugging memory (1 msgs)
+[2026-05-22 00:58:48]   Wrote: /Users/imagent4bd/workspace/lkml/RFC_arm64_mmu_use_range_based_TLB_flushing_when_hot_unplugging_memory.md
+[2026-05-22 00:58:48]   Analyzing: kvm: arm64: Include kvm_emulate.h in kvm/arm_psci.h (2 msgs)
+[2026-05-22 00:59:32]   Wrote: /Users/imagent4bd/workspace/lkml/kvm_arm64_Include_kvm_emulate_h_in_kvm_arm_psci_h.md
+[2026-05-22 00:59:32]   Analyzing: KVM: arm64: Fix __pkvm_init_vm error path (3 msgs)
+[2026-05-22 01:00:14]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Fix___pkvm_init_vm_error_path.md
+[2026-05-22 01:00:14]   Analyzing: KVM: arm64: Add fail-safe for refcounted pages in __pkvm_hyp_donate_host (3 msgs)
+[2026-05-22 01:01:05]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Add_fail-safe_for_refcounted_pages_in___pkvm_hyp_donate_host.md
+[2026-05-22 01:01:05]   Analyzing: kunit: add tests for smp_cond_load_*_timeout() (1 msgs)
+[2026-05-22 01:02:14]   Wrote: /Users/imagent4bd/workspace/lkml/kunit_add_tests_for_smp_cond_load___timeout.md
+[2026-05-22 01:02:14]   Analyzing: iommu: Allow device driver to use its own PASID space for SVA (1 msgs)
+[2026-05-22 01:03:04]   Wrote: /Users/imagent4bd/workspace/lkml/iommu_Allow_device_driver_to_use_its_own_PASID_space_for_SVA.md
+[2026-05-22 01:03:04]   Analyzing: [RFC V2 01/14] mm: Abstract printing of pxd_val() (1 msgs)
+[2026-05-22 01:03:50]   Wrote: /Users/imagent4bd/workspace/lkml/RFC_V2_01_14_mm_Abstract_printing_of_pxd_val.md
+[2026-05-22 01:03:50]   Analyzing: bpf: Recover arena kernel faults with scratch page (1 msgs)
+[2026-05-22 01:04:35]   Wrote: /Users/imagent4bd/workspace/lkml/bpf_Recover_arena_kernel_faults_with_scratch_page.md
+[2026-05-22 01:04:35]   Analyzing: Add test for atomic uaccess with permission overlay (1 msgs)
+[2026-05-22 01:05:33]   Wrote: /Users/imagent4bd/workspace/lkml/Add_test_for_atomic_uaccess_with_permission_overlay.md
+[2026-05-22 01:05:33]   Analyzing: KVM: arm64: Reset page order in pKVM hyp_pool_init (4 msgs)
+[2026-05-22 01:06:13] Last check: 2026-05-18 16:16:50.094380+00:00, searching since 2026-05-18 15:16:50.094380+00:00
+[2026-05-22 01:06:13] Last check: 2026-05-18 16:16:50.094380+00:00, searching since 2026-05-18 15:16:50.094380+00:00
+[2026-05-22 01:06:13]   Creating arm64 folder...
+[2026-05-22 01:06:13]   Creating arm64 folder...
+[2026-05-22 01:06:13]   Found 0 emails since 18-May-2026
+[2026-05-22 01:06:13]   Found 0 emails since 18-May-2026
+[2026-05-22 01:06:13]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-22 01:06:13]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-22 01:06:13]   No ARM-related emails found
+[2026-05-22 01:06:13]   No ARM-related emails found
+[2026-05-22 01:06:13]   Arm64 folder: 0 total, 0 new
+[2026-05-22 01:06:13]   Arm64 folder: 0 total, 0 new
+[2026-05-22 01:06:13] Done.
+[2026-05-22 01:06:13] Done.
+[2026-05-22 01:06:34]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Reset_page_order_in_pKVM_hyp_pool_init.md
+[2026-05-22 01:06:34]   Analyzing: kselftest/arm64: Add test for atomic futex uaccess with POE (1 msgs)
+[2026-05-22 01:07:12]   Wrote: /Users/imagent4bd/workspace/lkml/kselftest_arm64_Add_test_for_atomic_futex_uaccess_with_POE.md
+[2026-05-22 01:07:12]   Analyzing: KVM: arm64: Fix memory leak in hyp_trace_unload() (1 msgs)
+[2026-05-22 01:07:49]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Fix_memory_leak_in_hyp_trace_unload.md
+[2026-05-22 01:07:49]   Analyzing: arm64: RMI: Add wrappers for RMI calls (3 msgs)
+[2026-05-22 01:08:58]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_RMI_Add_wrappers_for_RMI_calls.md
+[2026-05-22 01:08:58]   Analyzing: Fix __pkvm_init_vm error path (1 msgs)
+[2026-05-22 01:09:57]   Wrote: /Users/imagent4bd/workspace/lkml/Fix___pkvm_init_vm_error_path.md
+[2026-05-22 01:09:57]   Analyzing: KVM: arm64: Don't include <asm/fpsimdmacros.h> (1 msgs)
+[2026-05-22 01:10:22]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Don_t_include_asm_fpsimdmacros_h.md
+[2026-05-22 01:10:22]   Analyzing: arm64: fpsimd: Split FPSR/FPCR from SVE save/restore (1 msgs)
+[2026-05-22 01:11:23]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_fpsimd_Split_FPSR_FPCR_from_SVE_save_restore.md
+[2026-05-22 01:11:23]   Analyzing: arm64: fpsimd: Move sve_get_vl() and sme_get_vl() inline (1 msgs)
+[2026-05-22 01:12:20]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_fpsimd_Move_sve_get_vl_and_sme_get_vl_inline.md
+[2026-05-22 01:12:20]   Analyzing: arm64: fpsimd: Remove sve_set_vq() and sme_set_vq() (1 msgs)
+[2026-05-22 01:12:57]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_fpsimd_Remove_sve_set_vq_and_sme_set_vq.md
+[2026-05-22 01:12:57]   Analyzing: arm64: sysreg: Add FPCR and FPSR (1 msgs)
+[2026-05-22 01:13:46]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_sysreg_Add_FPCR_and_FPSR.md
+[2026-05-22 01:13:46]   Analyzing: arm64: fpsimd: Move fpsimd save/restore inline (1 msgs)
+[2026-05-22 01:14:44]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_fpsimd_Move_fpsimd_save_restore_inline.md
+[2026-05-22 01:14:44]   Analyzing: arm64: fpsimd: Move SME save/restore inline (1 msgs)
+[2026-05-22 01:15:36]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_fpsimd_Move_SME_save_restore_inline.md
+[2026-05-22 01:15:36]   Analyzing: arm64: fpsimd: Remove <asm/fpsimdmacros.h> (1 msgs)
+[2026-05-22 01:16:16]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_fpsimd_Remove_asm_fpsimdmacros_h.md
+[2026-05-22 01:16:16]   Analyzing: arm64: RME: Handle Granule Protection Faults (GPFs) (1 msgs)
+[2026-05-22 01:16:19] Last check: 2026-05-18 16:16:50.094380+00:00, searching since 2026-05-18 15:16:50.094380+00:00
+[2026-05-22 01:16:19] Last check: 2026-05-18 16:16:50.094380+00:00, searching since 2026-05-18 15:16:50.094380+00:00
+[2026-05-22 01:16:20]   Creating arm64 folder...
+[2026-05-22 01:16:20]   Creating arm64 folder...
+[2026-05-22 01:16:20]   Found 0 emails since 18-May-2026
+[2026-05-22 01:16:20]   Found 0 emails since 18-May-2026
+[2026-05-22 01:16:20]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-22 01:16:20]   Found 0 emails in INBOX since 18-May-2026
+[2026-05-22 01:16:20]   No ARM-related emails found
+[2026-05-22 01:16:20]   No ARM-related emails found
+[2026-05-22 01:16:20]   Arm64 folder: 0 total, 0 new
+[2026-05-22 01:16:20]   Arm64 folder: 0 total, 0 new
+[2026-05-22 01:16:20] Done.
+[2026-05-22 01:16:20] Done.
+[2026-05-22 01:17:33] Last check: 2026-05-21 17:16:19.828444+00:00, searching since 2026-05-21 16:16:19.828444+00:00
+[2026-05-22 01:17:33]   Found 182 emails in INBOX since 21-May-2026
+[2026-05-22 01:17:41]   Moved 8 ARM-related emails to arm64 folder
+[2026-05-22 01:17:41]   Arm64 folder: 139 total, 46 new
+[2026-05-22 01:17:42]   Analyzing: arm64: RME: Handle Granule Protection Faults (GPFs) (1 msgs)
+[2026-05-22 01:18:49]   Analyzing: arm64: RMI: Configure the RMM with the host's page size (2 msgs)
+[2026-05-22 01:19:38]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_RMI_Configure_the_RMM_with_the_host_s_page_size.md
+[2026-05-22 01:19:38]   Analyzing: arm64: fpsimd: Use assembler for SVE instructions (1 msgs)
+[2026-05-22 01:20:40]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_fpsimd_Use_assembler_for_SVE_instructions.md
+[2026-05-22 01:20:40]   Analyzing: arm64: fpsimd: Use assembler for baseline SME instructions (1 msgs)
+[2026-05-22 01:21:23]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_fpsimd_Use_assembler_for_baseline_SME_instructions.md
+[2026-05-22 01:21:23]   Analyzing: KVM: arm64: Fix rollback in hyp_trace_buffer_share_hyp() (1 msgs)
+[2026-05-22 01:22:24]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Fix_rollback_in_hyp_trace_buffer_share_hyp.md
+[2026-05-22 01:22:24]   Analyzing: arm64: cputype: Add C1-Pro definitions (1 msgs)
+[2026-05-22 01:22:58]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_cputype_Add_C1-Pro_definitions.md
+[2026-05-22 01:22:58]   Analyzing: KVM: arm64: gic-v5: Initialise and teardown VMTEs & doorbells (1 msgs)
+[2026-05-22 01:23:34]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Initialise_and_teardown_VMTEs_doorbells.md
+[2026-05-22 01:23:34]   Analyzing: KVM: arm64: gic-v5: Enable VPE DBs on VPE reset and disable on teardown (1 msgs)
+[2026-05-22 01:24:27]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Enable_VPE_DBs_on_VPE_reset_and_disable_on_teardown.md
+[2026-05-22 01:24:27]   Analyzing: arm64: fpsimd: Move sve_flush_live() inline (1 msgs)
+[2026-05-22 01:25:35]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_fpsimd_Move_sve_flush_live_inline.md
+[2026-05-22 01:25:35]   Analyzing: KVM: arm64: gic-v5: Define remaining IRS MMIO registers (2 msgs)
+[2026-05-22 01:26:25] Last check: 2026-05-21 17:16:19.828444+00:00, searching since 2026-05-21 16:16:19.828444+00:00
+[2026-05-22 01:26:25] Last check: 2026-05-21 17:16:19.828444+00:00, searching since 2026-05-21 16:16:19.828444+00:00
+[2026-05-22 01:26:26]   Creating arm64 folder...
+[2026-05-22 01:26:26]   Creating arm64 folder...
+[2026-05-22 01:26:26]   Found 0 emails since 21-May-2026
+[2026-05-22 01:26:26]   Found 0 emails since 21-May-2026
+[2026-05-22 01:26:26]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-22 01:26:26]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-22 01:26:26]   No ARM-related emails found
+[2026-05-22 01:26:26]   No ARM-related emails found
+[2026-05-22 01:26:26]   Arm64 folder: 0 total, 0 new
+[2026-05-22 01:26:26]   Arm64 folder: 0 total, 0 new
+[2026-05-22 01:26:26] Done.
+[2026-05-22 01:26:26] Done.
+[2026-05-22 01:26:29]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Define_remaining_IRS_MMIO_registers.md
+[2026-05-22 01:26:29]   Analyzing: arm64: fpsimd: Fold sve_init_regs() into do_sve_acc() (1 msgs)
+[2026-05-22 01:27:18]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_fpsimd_Fold_sve_init_regs_into_do_sve_acc.md
+[2026-05-22 01:27:18]   Analyzing: KVM: arm64: gic-v5: Request VPE doorbells when going non-resident (1 msgs)
+[2026-05-22 01:28:28]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Request_VPE_doorbells_when_going_non-resident.md
+[2026-05-22 01:28:28]   Analyzing: KVM: arm64: Reset page order in pKVM hyp_pool (1 msgs)
+[2026-05-22 01:29:15]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Reset_page_order_in_pKVM_hyp_pool.md
+[2026-05-22 01:29:15]   Analyzing: [RESEND v3 2/3] KVM: arm64: Fix __pkvm_init_vm error path (1 msgs)
+[2026-05-22 01:29:48]   Wrote: /Users/imagent4bd/workspace/lkml/RESEND_v3_2_3_KVM_arm64_Fix___pkvm_init_vm_error_path.md
+[2026-05-22 01:29:48]   Analyzing: [RESEND v3 3/3] KVM: arm64: Add fail-safe for refcounted pages in __pkvm_hyp_donate_host (1 msgs)
+[2026-05-22 01:30:33]   Wrote: /Users/imagent4bd/workspace/lkml/RESEND_v3_3_3_KVM_arm64_Add_fail-safe_for_refcounted_pages_in___pkvm_hyp_donate_host.md
+[2026-05-22 01:30:33]   Analyzing: [RESEND v3 1/3] KVM: arm64: Reset page order in pKVM hyp_pool (1 msgs)
+[2026-05-22 01:31:29]   Wrote: /Users/imagent4bd/workspace/lkml/RESEND_v3_1_3_KVM_arm64_Reset_page_order_in_pKVM_hyp_pool.md
+[2026-05-22 01:31:29]   Analyzing: KVM: arm64: pkvm: Remove struct cpu_sve_state (1 msgs)
+[2026-05-22 01:32:23]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_pkvm_Remove_struct_cpu_sve_state.md
+[2026-05-22 01:32:23]   Analyzing: irqchip/gic-v5: Setup gic_kvm_info on ACPI hosts (1 msgs)
+[2026-05-22 01:33:14]   Wrote: /Users/imagent4bd/workspace/lkml/irqchip_gic-v5_Setup_gic_kvm_info_on_ACPI_hosts.md
+[2026-05-22 01:33:14]   Analyzing: KVM: arm64: gic-v5: Introduce guest IST alloc and management (1 msgs)
+[2026-05-22 01:33:59]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Introduce_guest_IST_alloc_and_management.md
+[2026-05-22 01:33:59]   Analyzing: KVM: arm64: gic-v5: Implement VMT/vIST IRS MMIO Ops (1 msgs)
+[2026-05-22 01:34:57]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Implement_VMT_vIST_IRS_MMIO_Ops.md
+[2026-05-22 01:34:57]   Analyzing: KVM: arm64: gic-v5: Keep GICv5 vCPU limit model-specific (1 msgs)
+[2026-05-22 01:36:01]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Keep_GICv5_vCPU_limit_model-specific.md
+[2026-05-22 01:36:01]   Analyzing: KVM: arm64: gic-v5: Request doorbells when VPEs enter WFI (1 msgs)
+[2026-05-22 01:36:31] Last check: 2026-05-21 17:16:19.828444+00:00, searching since 2026-05-21 16:16:19.828444+00:00
+[2026-05-22 01:36:31] Last check: 2026-05-21 17:16:19.828444+00:00, searching since 2026-05-21 16:16:19.828444+00:00
+[2026-05-22 01:36:31]   Creating arm64 folder...
+[2026-05-22 01:36:31]   Creating arm64 folder...
+[2026-05-22 01:36:32]   Found 0 emails since 21-May-2026
+[2026-05-22 01:36:32]   Found 0 emails since 21-May-2026
+[2026-05-22 01:36:32]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-22 01:36:32]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-22 01:36:32]   No ARM-related emails found
+[2026-05-22 01:36:32]   No ARM-related emails found
+[2026-05-22 01:36:32]   Arm64 folder: 0 total, 0 new
+[2026-05-22 01:36:32]   Arm64 folder: 0 total, 0 new
+[2026-05-22 01:36:32] Done.
+[2026-05-22 01:36:32] Done.
+[2026-05-22 01:36:54]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Request_doorbells_when_VPEs_enter_WFI.md
+[2026-05-22 01:36:54]   Analyzing: KVM: arm64: gic-v5: Introduce struct vgic_v5_irs and IRS base address (1 msgs)
+[2026-05-22 01:37:31]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Introduce_struct_vgic_v5_irs_and_IRS_base_address.md
+[2026-05-22 01:37:31]   Analyzing: KVM: arm64: gic-v5: Add IRS IODEV support to MMIO handlers (1 msgs)
+[2026-05-22 01:38:07]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Add_IRS_IODEV_support_to_MMIO_handlers.md
+[2026-05-22 01:38:07]   Analyzing: KVM: arm64: gic-v5: Add GICv5 IRS IODEV and MMIO emulation (1 msgs)
+[2026-05-22 01:39:00]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Add_GICv5_IRS_IODEV_and_MMIO_emulation.md
+[2026-05-22 01:39:00]   Analyzing: KVM: arm64: gic-v5: Register the IRS IODEV (1 msgs)
+[2026-05-22 01:39:50]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Register_the_IRS_IODEV.md
+[2026-05-22 01:39:50]   Analyzing: KVM: arm64: gic-v5: Introduce SPI AP list (1 msgs)
+[2026-05-22 01:40:44]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Introduce_SPI_AP_list.md
+[2026-05-22 01:40:44]   Analyzing: KVM: arm64: gic: Introduce set_pending_state() to irq_op (1 msgs)
+[2026-05-22 01:41:18]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic_Introduce_set_pending_state_to_irq_op.md
+[2026-05-22 01:41:18]   Analyzing: KVM: arm64: gic-v5: Mask per-vcpu PPI state in vgic_v5_finalize_ppi_state() (1 msgs)
+[2026-05-22 01:42:00]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Mask_per-vcpu_PPI_state_in_vgic_v5_finalize_ppi_state.md
+[2026-05-22 01:42:00]   Analyzing: KVM: arm64: gic-v5: Handle userspace accesses to IRS MMIO region (1 msgs)
+[2026-05-22 01:42:37]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Handle_userspace_accesses_to_IRS_MMIO_region.md
+[2026-05-22 01:42:37]   Analyzing: KVM: arm64: gic-v5: Add GICv5 EL1 sysreg userspace accessors (1 msgs)
+[2026-05-22 01:43:27]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Add_GICv5_EL1_sysreg_userspace_accessors.md
+[2026-05-22 01:43:27]   Analyzing: Documentation: KVM: Add KVM_DEV_ARM_VGIC_GRP_IRS_REGS to VGICv5 docs (1 msgs)
+[2026-05-22 01:44:00]   Wrote: /Users/imagent4bd/workspace/lkml/Documentation_KVM_Add_KVM_DEV_ARM_VGIC_GRP_IRS_REGS_to_VGICv5_docs.md
+[2026-05-22 01:44:00]   Analyzing: kvm: arm64: Avoid including linux/kvm_host.h in kvm_pgtable.h (1 msgs)
+[2026-05-22 01:44:36]   Wrote: /Users/imagent4bd/workspace/lkml/kvm_arm64_Avoid_including_linux_kvm_host_h_in_kvm_pgtable_h.md
+[2026-05-22 01:44:36]   Analyzing: firmware: arm_ffa: Fix Endpoint Memory Access Descriptor offset calculation (1 msgs)
+[2026-05-22 01:45:10]   Wrote: /Users/imagent4bd/workspace/lkml/firmware_arm_ffa_Fix_Endpoint_Memory_Access_Descriptor_offset_calculation.md
+[2026-05-22 01:45:10]   Analyzing: arm64: RMI: Check for RMI support at init (2 msgs)
+[2026-05-22 01:45:54]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_RMI_Check_for_RMI_support_at_init.md
+[2026-05-22 01:45:54]   Analyzing: perf/arm-cmn: Add workarounds for CMN-S3 on Graviton5 (1 msgs)
+[2026-05-22 01:46:37] Last check: 2026-05-21 17:16:19.828444+00:00, searching since 2026-05-21 16:16:19.828444+00:00
+[2026-05-22 01:46:37] Last check: 2026-05-21 17:16:19.828444+00:00, searching since 2026-05-21 16:16:19.828444+00:00
+[2026-05-22 01:46:38]   Creating arm64 folder...
+[2026-05-22 01:46:38]   Creating arm64 folder...
+[2026-05-22 01:46:38]   Found 0 emails since 21-May-2026
+[2026-05-22 01:46:38]   Found 0 emails since 21-May-2026
+[2026-05-22 01:46:38]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-22 01:46:38]   Found 0 emails in INBOX since 21-May-2026
+[2026-05-22 01:46:38]   No ARM-related emails found
+[2026-05-22 01:46:38]   No ARM-related emails found
+[2026-05-22 01:46:38]   Arm64 folder: 0 total, 0 new
+[2026-05-22 01:46:38]   Arm64 folder: 0 total, 0 new
+[2026-05-22 01:46:38] Done.
+[2026-05-22 01:46:38] Done.
+[2026-05-22 01:46:56]   Wrote: /Users/imagent4bd/workspace/lkml/perf_arm-cmn_Add_workarounds_for_CMN-S3_on_Graviton5.md
+[2026-05-22 01:46:56]   Analyzing: mfd: core: Add firmware-node support to MFD cells (1 msgs)
+[2026-05-22 01:47:58]   Wrote: /Users/imagent4bd/workspace/lkml/mfd_core_Add_firmware-node_support_to_MFD_cells.md
+[2026-05-22 01:47:58]   Analyzing: gfp_types: Introduce a new GFP_ATOMIC_RT gfp flag (1 msgs)
+[2026-05-22 01:48:39]   Wrote: /Users/imagent4bd/workspace/lkml/gfp_types_Introduce_a_new_GFP_ATOMIC_RT_gfp_flag.md
+[2026-05-22 01:48:39]   Analyzing: KVM: arm64: gic-v5: Set up VMTEs and VPE doorbells (1 msgs)
+[2026-05-22 01:49:29]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Set_up_VMTEs_and_VPE_doorbells.md
+[2026-05-22 01:49:29]   Analyzing: KVM: arm64: gic-v5: Implement save/restore mechanisms for ISTs (1 msgs)
+[2026-05-22 01:50:11]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Implement_save_restore_mechanisms_for_ISTs.md
+[2026-05-22 01:50:11]   Analyzing: Documentation: KVM: Add the VGICv5 IRS save/restore sequences (1 msgs)
+[2026-05-22 01:51:06]   Wrote: /Users/imagent4bd/workspace/lkml/Documentation_KVM_Add_the_VGICv5_IRS_save_restore_sequences.md
+[2026-05-22 01:51:06]   Analyzing: KVM: arm64: gic-v5: Create & manage VM and VPE tables (1 msgs)
+[2026-05-22 01:51:35]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Create_manage_VM_and_VPE_tables.md
+[2026-05-22 01:51:35]   Analyzing: Documentation: KVM: Document KVM_DEV_ARM_VGIC_GRP_CPU_SYSREGS for VGICv5 (1 msgs)
+[2026-05-22 01:52:26]   Wrote: /Users/imagent4bd/workspace/lkml/Documentation_KVM_Document_KVM_DEV_ARM_VGIC_GRP_CPU_SYSREGS_for_VGICv5.md
