@@ -28,3 +28,34 @@
 
 ## 新增补丁
 本次邮件仅包含 `[RFC PATCH 2/2]` 的初次发布，未出现更新版本。补丁增加了 `MAINTAINERS`、`arch/arm64/mm/Makefile` 以及新文件 `arch/arm64/mm/cache_maint.c`（共 182 行插入），尚未因讨论意见进行修改。
+
+---
+
+## 更新 - 2026-05-21 13:10 UTC
+
+## 核心话题
+本邮件讨论聚焦于为arm64架构添加基于SMCCC（SMC Calling Convention）的缓存维护后端。Srirangan Madhavan发布的[RFC PATCH 2/2]补丁实现了`arch/arm64/mm/cache_maint.c`，其中通过SMCCC调用向固件请求缓存清理/无效化操作，并处理固件返回的BUSY和RATE_LIMITED状态，同时集成进通用的cache coherency框架。
+
+讨论的核心技术点在于并发场景下对“全局操作生成计数”（`global_flush_gen`）的优化逻辑是否正确。补丁中，当固件声称支持全局刷新操作时，内核会维护一个`global_flush_gen`计数器。请求将先读取当前生成计数，获取互斥锁后，如果发现生成计数在等待锁期间已发生变化，就会跳过本次刷新调用，直接返回成功，理由是之前的全局操作已经覆盖了所有等待的请求。
+
+Dan Williams（NVIDIA）对此提出了漏刷新（under flush）的可能风险。他给出一个具体竞争顺序：
+- CPU0持有脏数据，`flush_gen==0`；
+- CPU0获取锁，执行全局刷新；
+- 在CPU0刷新未完成时，CPU1又产生新的脏数据，并读取`flush_gen`此时可能已是更新后的值（比如1），随后CPU1获取锁，发现计数变化，直接跳过刷新返回0。
+
+Dan指出这会导致CPU1需要刷新的数据被错误跳过，从而引发一致性问题。他总结道：“…this looks like it could under flush which is worse than over flushing.” 并认为需要更复杂的队列或批处理系统来替代简单的跳过逻辑。邮件在此处被截断，完整的建议未能完全展示，但意图明确：当前基于生成计数跳过的快速路径不足以保证正确性，必须考虑更全面的同步机制。
+
+因此，核心争议在于`arm64_smccc_cache_wbinv`函数中利用`global_flush_gen`优化刷新调用的并发安全性。
+
+## 参与讨论人员
+- Srirangan Madhavan（NVIDIA）—— 补丁作者，提交了该RFC系列。
+- Dan Williams（NVIDIA）—— 评审人，指出并发竞争缺陷，发件地址djbw@kernel.org。
+
+## 达成的结论
+尚未达成共识。讨论仍在进行中，Dan Williams提出的“under flush”问题尚未得到作者的回应或解决方案，补丁逻辑存在明显漏洞，需要进一步修改。
+
+## 下一步改进方向
+需要重新设计全局刷新跳过逻辑，以避免漏刷新。Dan建议采用“更复杂的队列或批处理系统”（more sophisticated queue/batch system）。具体来说，应确保在全局刷新进行期间新产生的脏数据能被后续的刷新覆盖，而不是因为生成计数变化而被遗漏。可能需要引入每CPU的脏标记、请求排队、或基于epoch的同步等方式来保证正确性。此外，还需要补充完整的并发测试场景，验证修正后的实现。
+
+## 新增补丁
+本邮件讨论中未出现新的补丁版本，当前仍为 [RFC PATCH 2/2]。
