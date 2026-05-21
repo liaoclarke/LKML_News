@@ -1,0 +1,9 @@
+[2026-05-22 01:55:10] LKML ARM64 Tracker starting (interval=600s)
+[2026-05-22 01:55:10] Last check: 2026-05-21 17:17:33.249301+00:00, searching since 2026-05-21 16:17:33.249301+00:00
+[2026-05-22 01:55:11]   Found 178 emails in INBOX since 21-May-2026
+[2026-05-22 01:55:18]   Moved 2 ARM-related emails to arm64 folder
+[2026-05-22 01:55:18]   Arm64 folder: 141 total, 2 new
+[2026-05-22 01:55:18]   Analyzing: dma: swiotlb: track pool encryption state and honor DMA_ATTR_CC_SHARED (1 msgs)
+[2026-05-22 01:55:56]   Wrote: /Users/imagent4bd/workspace/lkml/dma_swiotlb_track_pool_encryption_state_and_honor_DMA_ATTR_CC_SHARED.md
+[2026-05-22 01:55:56]   Analyzing: Fix __pkvm_init_vm error path (1 msgs)
+[2026-05-22 01:56:46]   Wrote: /Users/imagent4bd/workspace/lkml/Fix___pkvm_init_vm_error_path.md
