@@ -24,3 +24,24 @@
 
 ## 新增补丁
 - **[PATCH] arm64: mm: call pagetable dtor when freeing hot-removed page tables** (版本 v1)：提交者 Alistair Popple，在 `arch/arm64/mm/mmu.c` 的 `free_hotplug_pgtable_page()` 函数中增加了 `pagetable_dtor(page);` 一行，以确保在页表页最终释放前撤销构造函数的效果。
+
+---
+
+## 更新 - 2026-05-22 09:50 UTC
+
+## 核心话题
+本次讨论围绕一个 arm64 架构下内存热拔出（hot-remove）过程中页表释放的缺陷展开。问题的根源在于提交 `5e8eb9aeeda3`（"arm64: mm: always call PTE/PMD ctor in __create_pgd_mapping()"），该提交使得 arm64 在创建页表映射时统一调用了页表构造函数 `pagetable_{pte,pmd,pud,p4d}_ctor()`。这些构造函数会将 `page_type` 设置为 `PGTY_table`，增加内核统计 `NR_PAGETABLE`，并且在配置了 `ALLOC_SPLIT_PTLOCKS` 的情况下还会分配页表锁（PTL）。然而，对应的页表释放路径并未调用析构函数 `pagetable_dtor()`，导致这部分资源未能正确清理。
+
+当启用 `DEBUG_VM` 且在未包含补丁 `2dfcd1608f3a9`（该补丁会在释放页面时主动清除 `page_type`）的 v6.17 之前内核上，该问题会以“Bad page state”警告的形式暴露出来。具体原因是 `page->page_type` 与 `page->_mapcount` 共用存储空间，而未经析构的页面在释放时残留的 `page_type`（如 `f2(table)`）会被解释为非零的 `mapcount`，从而触发 `bad_page()` 校验失败。Alistair Popple 在邮件中给出的实际调用栈清晰地展示了这一过程：从 `offline_and_remove_memory` -> `free_empty_tables` -> `free_hotplug_page_range` -> `free_pages` -> `__free_pages` -> `__free_frozen_pages` -> `bad_page`。除此之外，该缺陷还可能导致页表锁内存泄漏以及 `NR_PAGETABLE` 统计值偏高。
+
+Alistair 提出的修复方法是在热拔出释放页表页的函数 `free_hotplug_pgtable_page()` 中，于最终释放页面之前先调用 `pagetable_dtor()`，以此逆转构造函数造成的所有影响，保证页表生命周期管理的对称性。Andrew Morton 在审核时指出，该问题影响 Linux 6.16 及后续版本，因此需要补充 `cc: stable` 标记以便向后移植。Alistair 立即认同了这一判断，并对 Andrew 主动补上 stable 标签表示感谢。整个讨论虽然简短，但技术逻辑清晰，确认了补丁的必要性和稳定性需求。
+
+## 参与讨论人员
+- Alistair Popple <apopple@nvidia.com> (NVIDIA)
+- Andrew Morton <akpm@linux-foundation.org> (Linux 基金会)
+
+## 达成的结论
+已达成完全共识。双方均认为该修复正确且必要，并且必须合入 stable 树。Andrew Morton 已自行在补丁中补充了 `cc: stable` 标记，Alistair Popple 对此表示认可并感谢。讨论中未出现任何异议或分歧。
+
+## 下一步改进方向
+该补丁需要被正式合入主线。由于 Andrew Morton（-mm 树维护者）已接手处理，它预计会先进入 -mm 树的 mm-hotfixes 分支，并最终在下一个合并窗口或作为修复直接合入 Linus 主线。同时，由于标明了 stable，修复将被反向移植到 v6.16 及之后受影响的稳定内核版本。目前无需进一步的代码修改或额外讨论，等待合入
