@@ -1309,3 +1309,15 @@
 [2026-05-22 02:34:19]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_RME_Handle_Granule_Protection_Faults_GPFs.md
 [2026-05-22 02:34:19]   Analyzing: KVM: arm64: Provide assembly for SME register access (1 msgs)
 [2026-05-22 02:35:01]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Provide_assembly_for_SME_register_access.md
+[2026-05-22 02:35:05]   Git push successful
+[2026-05-22 02:35:05] Done.
+[2026-05-22 02:45:11] Last check: 2026-05-21 18:31:36.918794+00:00, searching since 2026-05-21 17:31:36.918794+00:00
+[2026-05-22 02:45:11]   Found 191 emails in INBOX since 21-May-2026
+[2026-05-22 02:45:16]   Moved 3 ARM-related emails to arm64 folder
+[2026-05-22 02:45:16]   Arm64 folder: 154 total, 3 new
+[2026-05-22 02:45:16]   Analyzing: Documentation: KVM: Add docs for KVM_DEV_ARM_VGIC_GRP_IST (1 msgs)
+[2026-05-22 02:46:06]   Wrote: /Users/imagent4bd/workspace/lkml/Documentation_KVM_Add_docs_for_KVM_DEV_ARM_VGIC_GRP_IST.md
+[2026-05-22 02:46:06]   Analyzing: arm64: RMI: Provide functions to delegate/undelegate ranges of memory (1 msgs)
+[2026-05-22 02:46:46]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_RMI_Provide_functions_to_delegate_undelegate_ranges_of_memory.md
+[2026-05-22 02:46:46]   Analyzing: KVM: arm64: gic-v5: Add GICv5 SPI injection to irqfd (1 msgs)
+[2026-05-22 02:47:40]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_gic-v5_Add_GICv5_SPI_injection_to_irqfd.md
