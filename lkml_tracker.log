@@ -1836,3 +1836,16 @@
 [2026-05-22 17:23:11]   Arm64 folder: 193 total, 1 new
 [2026-05-22 17:23:11]   Analyzing: arm64: mm: Add note about overlays in PIE_EL1 (1 msgs)
 [2026-05-22 17:23:45]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_mm_Add_note_about_overlays_in_PIE_EL1.md
+[2026-05-22 17:23:49]   Git push successful
+[2026-05-22 17:23:49] Done.
+[2026-05-22 17:33:56] Last check: 2026-05-22 09:23:09.017419+00:00, searching since 2026-05-22 08:23:09.017419+00:00
+[2026-05-22 17:33:56]   Found 48 emails in INBOX since 22-May-2026
+[2026-05-22 17:33:57]   No ARM-related emails found
+[2026-05-22 17:33:57]   Arm64 folder: 193 total, 0 new
+[2026-05-22 17:33:57] Done.
+[2026-05-22 17:44:03] Last check: 2026-05-22 09:33:56.051502+00:00, searching since 2026-05-22 08:33:56.051502+00:00
+[2026-05-22 17:44:03]   Found 49 emails in INBOX since 22-May-2026
+[2026-05-22 17:44:05]   Moved 1 ARM-related emails to arm64 folder
+[2026-05-22 17:44:06]   Arm64 folder: 194 total, 1 new
+[2026-05-22 17:44:06]   Analyzing: arm64: mm: call pagetable dtor when freeing hot-removed page tables (1 msgs)
+[2026-05-22 17:45:20]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_mm_call_pagetable_dtor_when_freeing_hot-removed_page_tables.md

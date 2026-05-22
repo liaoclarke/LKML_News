@@ -72,3 +72,17 @@ Alistair 提出的修复方法是在热拔出释放页表页的函数 `free_hotp
 
 ## 新增补丁
 本次邮件线程中**没有出现新的补丁版本**，仅有一个初始补丁（v1）被讨论和评审。作者没有基于反馈再发 v2，因为评审者已直接给出了赞同意见和 `cc:stable` 建议。因此，最终合入的补丁内容应与此处展示的初始版本一致，仅需加入 `Cc: stable` 标记。
+
+---
+
+## 更新 - 2026-05-22 10:36 UTC
+
+## 核心话题
+本邮件线程围绕 ARM64 架构热移除内存时页表释放过程缺少 `pagetable_dtor()` 调用的问题展开。问题的根源在于 commit 5e8eb9aeeda3（"arm64: mm: always call PTE/PMD ctor in __create_pgd_mapping()"），该提交使 ARM64 在创建各级页表（PTE、PMD、PUD、P4D 级别的页表）时无条件调用了 `pagetable_{pte,pmd,pud,p4d}_ctor()`。这些构造函数会执行以下关键操作：
+- 设置 `page->page_type` 为 `PGTY_table`；
+- 递增全局计数器 `NR_PAGETABLE`；
+- 当内核配置了 `ALLOC_SPLIT_PTLOCKS` 时，还会为页表分配一个独立的 PTL（page table lock）。
+
+然而，在内存热移除路径中，当通过 `free_hotplug_pgtable_page()` 释放这些由热移除操作腾出的页表页时，对应的析构函数 `pagetable_dtor()` 从未被调用。这导致两个直接后果：
+
+1. **在开启 DEBUG_VM 且内核版本低于 v6.17（未包含清理 page_type 的 commit 2dfcd1608f3a9）时，会触发“Bad page state”警告**。原因是 `page->page_type` 与 `page->_mapcount` 共享 union，而 `page_type` 被设为 `f2(table)`（即 `PGTY_table`），使得释放检查时误认为 `_mapcount` 非零，从而打印错误信息并调用 `bad_page()`。Al
