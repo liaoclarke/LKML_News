@@ -410,3 +410,21 @@
 [2026-05-22 13:30:05]   Wrote: /Users/imagent4bd/workspace/lkml/dma-direct_swiotlb_handle_swiotlb_alloc_free_outside___dma_direct_alloc_pages.md
 [2026-05-22 13:30:05]   Analyzing: dma-direct: select DMA address encoding from DMA_ATTR_CC_SHARED (1 msgs)
 [2026-05-22 13:31:01]   Wrote: /Users/imagent4bd/workspace/lkml/dma-direct_select_DMA_address_encoding_from_DMA_ATTR_CC_SHARED.md
+[2026-05-22 13:31:05]   Git push successful
+[2026-05-22 13:31:05] Done.
+[2026-05-22 13:41:11] Last check: 2026-05-22 05:28:00.082216+00:00, searching since 2026-05-22 04:28:00.082216+00:00
+[2026-05-22 13:41:11]   Found 37 emails in INBOX since 22-May-2026
+[2026-05-22 13:41:13]   Moved 6 ARM-related emails to arm64 folder
+[2026-05-22 13:41:13]   Arm64 folder: 176 total, 6 new
+[2026-05-22 13:41:13]   Analyzing: dma-direct: make dma_direct_map_phys() honor DMA_ATTR_CC_SHARED (1 msgs)
+[2026-05-22 13:41:57]   Wrote: /Users/imagent4bd/workspace/lkml/dma-direct_make_dma_direct_map_phys_honor_DMA_ATTR_CC_SHARED.md
+[2026-05-22 13:41:57]   Analyzing: mm/vmalloc: Speed up ioremap, vmalloc and vmap with contiguous memory (1 msgs)
+[2026-05-22 13:42:39]   Wrote: /Users/imagent4bd/workspace/lkml/mm_vmalloc_Speed_up_ioremap_vmalloc_and_vmap_with_contiguous_memory.md
+[2026-05-22 13:42:39]   Analyzing: mm/vmalloc: Extend page table walk to support larger page_shift sizes and eliminate page table rewalk (1 msgs)
+[2026-05-22 13:43:22]   Wrote: /Users/imagent4bd/workspace/lkml/mm_vmalloc_Extend_page_table_walk_to_support_larger_page_shift_sizes_and_eliminate_page_table_rewalk.md
+[2026-05-22 13:43:22]   Analyzing: arm64/hugetlb: Extend batching of multiple CONT_PTE in a single PTE setup (1 msgs)
+[2026-05-22 13:44:10]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_hugetlb_Extend_batching_of_multiple_CONT_PTE_in_a_single_PTE_setup.md
+[2026-05-22 13:44:10]   Analyzing: mm/vmalloc: map contiguous pages in batches for vmap() if possible (1 msgs)
+[2026-05-22 13:45:18]   Wrote: /Users/imagent4bd/workspace/lkml/mm_vmalloc_map_contiguous_pages_in_batches_for_vmap_if_possible.md
+[2026-05-22 13:45:18]   Analyzing: dma-mapping: make dma_pgprot() honor DMA_ATTR_CC_SHARED (1 msgs)
+[2026-05-22 13:46:35]   Wrote: /Users/imagent4bd/workspace/lkml/dma-mapping_make_dma_pgprot_honor_DMA_ATTR_CC_SHARED.md
