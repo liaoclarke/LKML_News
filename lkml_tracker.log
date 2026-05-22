@@ -1694,3 +1694,15 @@
 [2026-05-22 13:45:18]   Wrote: /Users/imagent4bd/workspace/lkml/mm_vmalloc_map_contiguous_pages_in_batches_for_vmap_if_possible.md
 [2026-05-22 13:45:18]   Analyzing: dma-mapping: make dma_pgprot() honor DMA_ATTR_CC_SHARED (1 msgs)
 [2026-05-22 13:46:35]   Wrote: /Users/imagent4bd/workspace/lkml/dma-mapping_make_dma_pgprot_honor_DMA_ATTR_CC_SHARED.md
+[2026-05-22 13:46:39]   Git push successful
+[2026-05-22 13:46:39] Done.
+[2026-05-22 13:56:45] Last check: 2026-05-22 05:41:11.599486+00:00, searching since 2026-05-22 04:41:11.599486+00:00
+[2026-05-22 13:56:46]   Found 34 emails in INBOX since 22-May-2026
+[2026-05-22 13:56:48]   Moved 3 ARM-related emails to arm64 folder
+[2026-05-22 13:56:48]   Arm64 folder: 179 total, 3 new
+[2026-05-22 13:56:48]   Analyzing: dma-mapping: Use DMA_ATTR_CC_SHARED through direct, pool and swiotlb paths (1 msgs)
+[2026-05-22 13:57:59]   Wrote: /Users/imagent4bd/workspace/lkml/dma-mapping_Use_DMA_ATTR_CC_SHARED_through_direct_pool_and_swiotlb_paths.md
+[2026-05-22 13:57:59]   Analyzing: dma-direct: pass attrs to dma_capable() for DMA_ATTR_CC_SHARED checks (1 msgs)
+[2026-05-22 13:58:52]   Wrote: /Users/imagent4bd/workspace/lkml/dma-direct_pass_attrs_to_dma_capable_for_DMA_ATTR_CC_SHARED_checks.md
+[2026-05-22 13:58:52]   Analyzing: dma: swiotlb: handle set_memory_decrypted() failures (1 msgs)
+[2026-05-22 13:59:56]   Wrote: /Users/imagent4bd/workspace/lkml/dma_swiotlb_handle_set_memory_decrypted_failures.md
