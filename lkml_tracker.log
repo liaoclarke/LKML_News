@@ -1644,3 +1644,35 @@
 [2026-05-22 12:36:29]   Arm64 folder: 167 total, 1 new
 [2026-05-22 12:36:30]   Analyzing: dma: swiotlb: pass mapping attributes by reference (1 msgs)
 [2026-05-22 12:37:19]   Wrote: /Users/imagent4bd/workspace/lkml/dma_swiotlb_pass_mapping_attributes_by_reference.md
+[2026-05-22 12:37:23]   Git push successful
+[2026-05-22 12:37:23] Done.
+[2026-05-22 12:47:29] Last check: 2026-05-22 04:36:27.812391+00:00, searching since 2026-05-22 03:36:27.812391+00:00
+[2026-05-22 12:47:30]   Found 29 emails in INBOX since 22-May-2026
+[2026-05-22 12:47:30]   No ARM-related emails found
+[2026-05-22 12:47:30]   Arm64 folder: 167 total, 0 new
+[2026-05-22 12:47:30] Done.
+[2026-05-22 12:57:38] Last check: 2026-05-22 04:47:29.940878+00:00, searching since 2026-05-22 03:47:29.940878+00:00
+[2026-05-22 12:57:38]   Found 29 emails in INBOX since 22-May-2026
+[2026-05-22 12:57:38]   No ARM-related emails found
+[2026-05-22 12:57:38]   Arm64 folder: 167 total, 0 new
+[2026-05-22 12:57:38] Done.
+[2026-05-22 13:07:45] Last check: 2026-05-22 04:57:38.042075+00:00, searching since 2026-05-22 03:57:38.042075+00:00
+[2026-05-22 13:07:45]   Found 29 emails in INBOX since 22-May-2026
+[2026-05-22 13:07:46]   No ARM-related emails found
+[2026-05-22 13:07:46]   Arm64 folder: 167 total, 0 new
+[2026-05-22 13:07:46] Done.
+[2026-05-22 13:17:52] Last check: 2026-05-22 05:07:45.091227+00:00, searching since 2026-05-22 04:07:45.091227+00:00
+[2026-05-22 13:17:52]   Found 29 emails in INBOX since 22-May-2026
+[2026-05-22 13:17:53]   No ARM-related emails found
+[2026-05-22 13:17:53]   Arm64 folder: 167 total, 0 new
+[2026-05-22 13:17:53] Done.
+[2026-05-22 13:28:00] Last check: 2026-05-22 05:17:52.398919+00:00, searching since 2026-05-22 04:17:52.398919+00:00
+[2026-05-22 13:28:00]   Found 33 emails in INBOX since 22-May-2026
+[2026-05-22 13:28:02]   Moved 3 ARM-related emails to arm64 folder
+[2026-05-22 13:28:02]   Arm64 folder: 170 total, 3 new
+[2026-05-22 13:28:02]   Analyzing: dma-direct: use DMA_ATTR_CC_SHARED in alloc/free paths (1 msgs)
+[2026-05-22 13:29:03]   Wrote: /Users/imagent4bd/workspace/lkml/dma-direct_use_DMA_ATTR_CC_SHARED_in_alloc_free_paths.md
+[2026-05-22 13:29:03]   Analyzing: dma-direct: swiotlb: handle swiotlb alloc/free outside __dma_direct_alloc_pages (1 msgs)
+[2026-05-22 13:30:05]   Wrote: /Users/imagent4bd/workspace/lkml/dma-direct_swiotlb_handle_swiotlb_alloc_free_outside___dma_direct_alloc_pages.md
+[2026-05-22 13:30:05]   Analyzing: dma-direct: select DMA address encoding from DMA_ATTR_CC_SHARED (1 msgs)
+[2026-05-22 13:31:01]   Wrote: /Users/imagent4bd/workspace/lkml/dma-direct_select_DMA_address_encoding_from_DMA_ATTR_CC_SHARED.md
