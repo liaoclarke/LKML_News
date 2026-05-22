@@ -1898,3 +1898,13 @@
 [2026-05-22 18:53:05]   Arm64 folder: 202 total, 1 new
 [2026-05-22 18:53:05]   Analyzing: selftests/resctrl: Introduce linked list management for IMC counters (1 msgs)
 [2026-05-22 18:53:43]   Wrote: /Users/imagent4bd/workspace/lkml/selftests_resctrl_Introduce_linked_list_management_for_IMC_counters.md
+[2026-05-22 18:53:47]   Git push successful
+[2026-05-22 18:53:47] Done.
+[2026-05-22 19:03:54] Last check: 2026-05-22 10:53:02.651257+00:00, searching since 2026-05-22 09:53:02.651257+00:00
+[2026-05-22 19:03:54]   Found 61 emails in INBOX since 22-May-2026
+[2026-05-22 19:03:57]   Moved 2 ARM-related emails to arm64 folder
+[2026-05-22 19:03:57]   Arm64 folder: 204 total, 2 new
+[2026-05-22 19:03:57]   Analyzing: selftests/resctrl: Enable dynamic management of IMC counters via linked list (1 msgs)
+[2026-05-22 19:04:55]   Wrote: /Users/imagent4bd/workspace/lkml/selftests_resctrl_Enable_dynamic_management_of_IMC_counters_via_linked_list.md
+[2026-05-22 19:04:55]   Analyzing: PCI: Add pci_ats_required() for CXL.cache capable devices (1 msgs)
+[2026-05-22 19:05:22]   Wrote: /Users/imagent4bd/workspace/lkml/PCI_Add_pci_ats_required_for_CXL_cache_capable_devices.md
