@@ -25,3 +25,28 @@
 
 ## 新增补丁
 本线程仅包含一封邮件，即 [RESEND v3 1/3] 补丁，是之前 v3 版本的重发，未附加任何较此更新的补丁版本。
+
+---
+
+## 更新 - 2026-05-22 07:53 UTC
+
+## 核心话题
+本补丁针对 pKVM（protected KVM）中 hyp_pool 页面管理的一个疏忽进行修复。在受保护的 KVM 虚拟化场景下，每个虚拟机的 Stage-2 页表由 hyp_pool 管理，其页面在 vmemmap 中会记录 `order` 字段，表示页面的大小阶数。如果 VM 初始化失败，需要拆解已分配的 Stage-2 hyp_pool。原有代码在回收页表页面时，通过 `reclaim_pgtable_pages()` 以 order-0 粒度遍历整个池来隐式重置页面 order，但在 VM 初始化错误路径中，捐出的内存地址（即 PGD 地址）是已知的，完全遍历池中所有页面不仅多余，也会带来不必要的开销。
+
+更严重的是，非零的 `order` 字段如果未被正确重置，虽然对当前已销毁的 hyp_pool 无害，但若该物理页随后被另一个 hyp_pool 接纳，残留的 order 值可能导致页合并或分配逻辑错误。补丁采取的思路是：将 vmemmap 的 order 重置从销毁阶段移至初始化阶段，即在 `hyp_pool_init()` 中统一重置 order 为 0。对于绕过 `hyp_pool_init()` 直接插入的“外部”页面，由于当前代码从不对外部页面进行合并，因此直接强制 order-0 以保证安全插入。这样处理之后，vmemmap order 字段的修改完全被约束在 hyp_pool 内部，消除了潜在的跨界影响。
+
+补丁内容体现在两块：移除 `guest_s2_zalloc_page()` 中对 `p->order = 0` 的设值，因为该函数用于分配新页面，此时 order 本该为 0 无需重复设置；在 hyp_pool 初始化入口处显式重置 order，同时在处理外部页面时强制 order 为 0。该变更修复了由 commit 256b4668cd89（"KVM: arm64: Introduce separate hypercalls for pKVM VM reservation and initialization"）引入的问题，并由内核测试机器人 Sashiko 报告。
+
+## 参与讨论人员
+- Vincent Donnefort (Google) — 补丁作者
+- Fuad Tabba (Google) — 审阅者及测试者
+- Sashiko (sashiko-bot@kernel.org) — 问题报告者（自动化测试机器人）
+
+## 达成的结论
+已达成共识。Fuad Tabba 对该补丁提供了 `Reviewed-by` 和 `Tested-by` 标签，表明补丁通过审查且经过测试，没有遗留的技术分歧。该补丁可以进入后续合并流程。
+
+## 下一步改进方向
+该补丁是 `[RESEND v3 1/3]` 系列的一部分，后续需等待同一系列其他补丁（如 2/3、3/3）的审查与合并；此外，相关的 pKVM 维护者（如 Marc Zyngier、Oliver Upton）需要最终确认并合入 arm64 或 KVM 树。如果有自动化测试（如 Sashiko 机器人），可以进行回归验证以确保问题被彻底解决且无新问题引入。
+
+## 新增补丁
+本邮件线程中未出现新版本补丁，当前讨论基于重发的 v3 版本，未产生 v4 或后续修订。
