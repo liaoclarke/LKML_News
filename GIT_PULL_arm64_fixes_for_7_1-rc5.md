@@ -2,34 +2,28 @@
 
 ---
 
-## 更新 - 2026-05-22 14:08 UTC
+## 更新 - 2026-05-22 14:25 UTC
 
 ## 核心话题
-该邮件为 ARM64 架构维护者 Catalin Marinas 在 Linux 7.1-rc5 周期向 Linus Torvalds 发起的 GIT PULL 请求，旨在合入两个 arm64 修复补丁。
+该邮件是内核自动合并跟踪机器人（pr-tracker-bot）发出的自动通知，内容为 arm64 架构针对 Linux 7.1-rc5 的一组修复补丁（fixes）已被 Linus Torvalds 的主线仓库（torvalds/linux.git）成功合并。
 
-第一个补丁由 Vladimir Murzin 提交，修复了 ARM64 探针（probes）对带提示（hinted）条件分支指令的处理。某些变体如 `BC.cond` 可与 `B.cond` 指令采用相同方式进行模拟，因此将 `B.cond` 的解码掩码扩展到同时覆盖 `BC.cond`。具体改动位于 `arch/arm64/include/asm/insn.h`，将一条指令的解码掩码位宽从 2 字节调整为 2 字节，实际 diff 显示 `#define AARCH64_INSN_SIZE 4` 等改动，但这里描述为“extend the decode mask”，实际提交修改了 `aarch64_insn_is_bcond` 中的掩码，确保两类指令均能被正确模拟。
+邮件正文引用了原始拉取请求（pull request）的发送时间与仓库地址：
+- 发送时间：Fri, 22 May 2026 14:08:34 +0100
+- 拉取源：git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux tags/arm64-fixes
 
-第二个补丁由 Zeng Heng 提交，解决了 PMD 表取消共享时 walk cache（页表遍历缓存，即 TLB 中的中间表项缓存）未正确刷新导致的一致性问题。近期 `huge_pmd_unshare()` 重构引入了 `mmu_gather::unshared_tables` 标志，但 arm64 的 TLB 刷新逻辑仍沿用仅针对叶子项（leaf entries）的指令 `TLBI VALE1IS`。当 `tlb->unshared_tables` 置位时，需要改用非叶指令 `TLBI VAE1IS` 以刷新 walk cache，确保页表中间项变更对后续访问可见。修改位于 `arch/arm64/include/asm/tlb.h`。
+合并后生成的提交哈希为 `ef7f594f5d291a98a4da2cc95e7713d3971bedaa`。
 
-这两个修复均针对 rc 周期中发现的具体功能问题，缺乏它们可能导致探针工具异常或内存管理缺页/错误访问，因此作为 rc 修复合入是合适的。
+本次邮件不包含具体的修复内容描述、技术细节或任何开发者的讨论与评审意见，仅为一个自动化合并完成的确认回执。在 arm64 架构的维护流程中，这类修复拉取请求通常由 arm64 维护者（Catalin Marinas 或 Will Deacon）在发布候选版本（-rc）周期内发送，用于合并一些关键且经过验证的缺陷修复，以保证主线内核在下一个正式版本前的稳定性。当前线程仅包含此一封自动回复邮件，未记录该修复集合的具体组成、代码改动内容或任何相关的技术争论。
 
 ## 参与讨论人员
-- **Catalin Marinas** (ARM)，ARM64 架构维护者，发送 pull request
-- **Vladimir Murzin**，修复 “arm64: probes: Handle probes on hinted conditional branch instructions” 的补丁作者
-- **Zeng Heng**，修复 “arm64: tlb: Flush walk cache when unsharing PMD tables” 的补丁作者
-- **Linus Torvalds** (Linux 基金会)，主线维护者，pull request 的接收者
+- pr-tracker-bot@kernel.org（内核自动化合并跟踪机器人）
+- 另外，根据拉取请求邮件的时间戳与惯例，该拉取请求的实际发送者应为 arm64 架构维护者之一（Catalin Marinas 或 Will Deacon），但邮件中未明确点名，仅以 “you” 指代。
 
 ## 达成的结论
-此线程为单一的 GIT PULL 请求，未包含技术讨论或异议。Catalin Marinas 作为维护者已完成补丁审查，认为它们适合在 rc5 合入。无持续争论，结论是上述两个补丁已准备好进入主线（7.1-rc5），Linus 通常会在数小时内合并该 pull request。
+该线程中不存在任何技术讨论或分歧。唯一的结论是：arm64 fixes for 7.1-rc5 拉取请求已成功合并入 torvalds/linux.git 主线，合并操作由自动化流程完成，表明补丁通过了自动化检查环节且被接收。
 
 ## 下一步改进方向
-由于这些是针对性修复，合并后无需额外代码更改。可能的后续步骤：
-- 待 Linus 合入后，确保补丁在其余 rc 周期中接受持续测试，尤其是启用了 kprobes/uprobes 的环境以及涉及 THP（透明大页）取消共享的工作负载。
-- 如出现回归，可能需要进一步调整 `unshared_tables` 相关逻辑或扩展解码掩码的准确性。
+由于本次邮件为纯通知性质，不涉及对代码的进一步讨论，因此无需对该批修复采取额外的改进动作。若后续出现回归问题，相关开发者需基于此合并提交进行定位与修复。对于 arm64 架构的维护而言，可继续关注后续 -rc 版本的测试反馈。
 
 ## 新增补丁
-此 pull request 中并不包含在讨论过程中重新发布的增量补丁版本，而是直接集成的两个补丁，作为一处变更提交：
-- 补丁 1：`arm64: probes: Handle probes on hinted conditional branch instructions`（Vladimir Murzin）
-- 补丁 2：`arm64: tlb: Flush walk cache when unsharing PMD tables`（Zeng Heng）
-
-两者均合并在本 pull request 的 git 树中，最终由 Linus 取用。
+该线程内未发布任何新版补丁，合并的主体即为拉取请求所指向的 `tags/arm64-fixes`，未在此线程中产生补丁版本迭代。

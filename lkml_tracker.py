@@ -6,13 +6,12 @@ Every 10 minutes:
 1. Fetch new emails from 163.com IMAP
 2. Filter emails addressed to ARM kernel maintainers -> move to arm64 folder
 3. Analyze new arm64 emails using LLM (topic, participants, conclusions, next steps)
-4. Write analysis to ~/workspace/lkml/<series_name>.md
+4. Write analysis to ~/workspace/linux/lkml/<series_name>.md
 5. Git commit and push to GitHub
 """
 
 import email
 import email.utils
-import hashlib
 import json
 import os
 import re
@@ -26,10 +25,6 @@ import urllib.request
 from datetime import datetime, timezone, timedelta
 from email.header import decode_header
 from email.policy import default
-
-# ============================================================
-# CONFIGURATION
-# ============================================================
 
 IMAP_HOST = "imap.163.com"
 IMAP_PORT = 993
@@ -46,15 +41,11 @@ TARGET_RECIPIENTS = [
     "james.morse@arm.com",
 ]
 
-LKML_DIR = os.path.expanduser("~/workspace/lkml")
+LKML_DIR = os.path.expanduser("~/workspace/linux/lkml")
 STATE_FILE = os.path.expanduser("~/.lkml_tracker_state.json")
 
-# Anthropic-compatible API (DeepSeek)
 LLM_API_URL = "https://api.deepseek.com/anthropic/v1/messages"
-LLM_API_KEY = os.environ.get(
-    "ANTHROPIC_AUTH_TOKEN",
-    "sk-91d3fbdc36dc4a38bc2df3642c53f5a7",
-)
+LLM_API_KEY = os.environ.get("ANTHROPIC_AUTH_TOKEN", "sk-91d3fbdc36dc4a38bc2df3642c53f5a7")
 LLM_MODEL = os.environ.get("ANTHROPIC_MODEL", "deepseek-v4-pro")
 
 LOG_FILE = os.path.join(LKML_DIR, "lkml_tracker.log")
@@ -83,17 +74,13 @@ def log_error(msg):
         pass
 
 
-# ============================================================
-# IMAP CLIENT (raw socket)
-# ============================================================
-
 class IMAPClient:
     def __init__(self, host, port, timeout=30):
         self.sock = socket.create_connection((host, port), timeout=timeout)
         ctx = ssl.create_default_context()
         self.sock = ctx.wrap_socket(self.sock, server_hostname=host)
         self.rfile = self.sock.makefile("rb")
-        self._readline()  # consume banner
+        self._readline()
         self.counter = 0
         self.logged_in = False
 
@@ -110,17 +97,13 @@ class IMAPClient:
     def _cmd(self, command):
         tag = self._next_tag()
         self.sock.sendall(f"{tag} {command}\r\n".encode())
-
         responses = []
         while True:
             line = self._readline()
             if line is None:
                 break
             responses.append(line)
-            if line.startswith(tag + " "):
-                break
-            # Handle BYE (server disconnecting)
-            if line.startswith("* BYE"):
+            if line.startswith(tag + " ") or line.startswith("* BYE"):
                 break
         return tag, responses
 
@@ -147,7 +130,6 @@ class IMAPClient:
         return None
 
     def search(self, criteria, uid=False):
-        """SEARCH or UID SEARCH. Returns all matching IDs across all continuation lines."""
         prefix = "UID SEARCH" if uid else "SEARCH"
         _, resp = self._cmd(f"{prefix} {criteria}")
         results = []
@@ -159,19 +141,16 @@ class IMAPClient:
         return results
 
     def fetch_full(self, uid_set, use_uid=True):
-        """Fetch full RFC822 emails. Returns list of (id, raw_bytes)."""
         uid_str = ",".join(str(u) for u in uid_set) if isinstance(uid_set, (list, tuple)) else str(uid_set)
         prefix = "UID FETCH" if use_uid else "FETCH"
         tag = self._next_tag()
         self.sock.sendall(f"{tag} {prefix} {uid_str} (RFC822)\r\n".encode())
-
         results = []
         while True:
             line = self._readline()
             if line is None or line.startswith(tag + " ") or line.startswith("* BYE"):
                 break
             if "FETCH" in line and "{" in line:
-                # Extract UID from response line like: * 1 FETCH (UID 123 RFC822 {size}
                 uid = "?"
                 m = re.search(r'UID (\d+)', line)
                 if m:
@@ -182,11 +161,10 @@ class IMAPClient:
                     try:
                         size = int(line[idx+1:idx2])
                         raw = self.rfile.read(size)
-                        self.rfile.readline()  # consume )\r\n after literal
+                        self.rfile.readline()
                         results.append((uid, raw))
                     except (ValueError, socket.error) as e:
                         log_error(f"  fetch_full error for {uid}: {e}")
-
         return results
 
     def copy(self, uid_set, folder):
@@ -232,15 +210,10 @@ class IMAPClient:
                 pass
 
     def ensure_arm64_folder(self):
-        """Check if arm64 folder exists, create if not."""
         if self.select(ARM64_FOLDER, readonly=True) is None:
             log("  Creating arm64 folder...")
             self._cmd(f'CREATE "{ARM64_FOLDER}"')
 
-
-# ============================================================
-# UTILITIES
-# ============================================================
 
 def decode_mime_header(value):
     if value is None:
@@ -287,8 +260,7 @@ def extract_body(msg):
     body = ""
     if msg.is_multipart():
         for part in msg.walk():
-            ct = part.get_content_type()
-            if ct == "text/plain":
+            if part.get_content_type() == "text/plain":
                 charset = part.get_content_charset() or "utf-8"
                 try:
                     payload = part.get_payload(decode=True)
@@ -343,10 +315,6 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 
-# ============================================================
-# EMAIL FILTERING
-# ============================================================
-
 def is_arm_related(msg):
     all_addrs = set()
     for header in ("To", "Cc"):
@@ -357,19 +325,11 @@ def is_arm_related(msg):
     return False
 
 
-# ============================================================
-# LLM ANALYSIS
-# ============================================================
-
 def build_analysis_prompt(thread_emails):
     MAX_CHARS = 8000
     email_texts = []
     total_chars = 0
-
-    emails_sorted = sorted(
-        thread_emails, key=lambda e: get_email_date(e) or datetime.min
-    )
-
+    emails_sorted = sorted(thread_emails, key=lambda e: get_email_date(e) or datetime.min)
     for msg in emails_sorted:
         sender = get_header(msg, "From")
         date = get_header(msg, "Date")
@@ -377,15 +337,12 @@ def build_analysis_prompt(thread_emails):
         body = extract_body(msg)
         if len(body) > 2000:
             body = body[:2000] + "\n[...truncated...]"
-
         text = f"---\nFrom: {sender}\nDate: {date}\nSubject: {subject}\n\n{body}"
         if total_chars + len(text) > MAX_CHARS:
             break
         email_texts.append(text)
         total_chars += len(text)
-
     combined = "\n".join(email_texts)
-
     prompt = f"""You are analyzing Linux kernel mailing list discussions about ARM64 architecture.
 
 Below are emails from a discussion thread. Please analyze them and respond in Chinese.
@@ -421,7 +378,6 @@ def call_llm(prompt):
         "max_tokens": 2000,
         "messages": [{"role": "user", "content": prompt}],
     }).encode()
-
     for attempt in range(3):
         try:
             req = urllib.request.Request(LLM_API_URL, data=data, headers={
@@ -448,17 +404,11 @@ def call_llm(prompt):
                 return f"[LLM API Error: {e}]"
 
 
-# ============================================================
-# FILE OPERATIONS
-# ============================================================
-
 def write_analysis(series_name_str, analysis_text, thread_date):
     filepath = os.path.join(LKML_DIR, filename_from_series(series_name_str))
-
     ts = thread_date.strftime("%Y-%m-%d %H:%M UTC") if thread_date else "Unknown"
     section_header = f"\n---\n\n## 更新 - {ts}\n\n"
     content = section_header + analysis_text + "\n"
-
     if os.path.exists(filepath):
         with open(filepath, "a") as f:
             f.write(content)
@@ -466,32 +416,23 @@ def write_analysis(series_name_str, analysis_text, thread_date):
         header = f"# {series_name_str}\n"
         with open(filepath, "w") as f:
             f.write(header + content)
-
     return filepath
 
 
 def git_commit_and_push():
     try:
         os.chdir(LKML_DIR)
-        subprocess.run(
-            ["git", "add", "-A"],
-            capture_output=True, timeout=30
-        )
+        subprocess.run(["git", "add", "-A"], capture_output=True, timeout=30)
         result = subprocess.run(
             ["git", "commit", "-m", f"Auto-update: {datetime.now().strftime('%Y-%m-%d %H:%M')}"],
             capture_output=True, timeout=30
         )
         if result.returncode != 0:
             stderr = result.stderr.decode()[:200] if result.stderr else ""
-            # "nothing to commit" is not an error
             if "nothing to commit" not in stderr and "nothing added to commit" not in stderr:
                 log_error(f"  Git commit failed: {stderr}")
                 return False
-
-        push = subprocess.run(
-            ["git", "push"],
-            capture_output=True, timeout=60
-        )
+        push = subprocess.run(["git", "push"], capture_output=True, timeout=60)
         if push.returncode == 0:
             return True
         else:
@@ -503,16 +444,12 @@ def git_commit_and_push():
         return False
 
 
-# ============================================================
-# MAIN LOGIC
-# ============================================================
-
 def run_once():
     state = load_state()
     last_check = state.get("last_check")
     if last_check:
         last_check_date = datetime.fromisoformat(last_check)
-        since = last_check_date - timedelta(hours=1)  # 1h overlap to avoid misses
+        since = last_check_date - timedelta(hours=1)
         log(f"Last check: {last_check_date}, searching since {since}")
     else:
         since = datetime.now(timezone.utc) - timedelta(hours=1)
@@ -525,19 +462,15 @@ def run_once():
     conn = None
     try:
         conn = IMAPClient(IMAP_HOST, IMAP_PORT)
-
         if not conn.login(IMAP_USER, IMAP_PASS):
             log_error("Login failed - credentials may be expired or incorrect")
             return
-
         try:
             conn.send_id()
         except Exception:
-            pass  # Non-fatal
-
+            pass
         conn.ensure_arm64_folder()
 
-        # ---- Step 1 & 2: Fetch new emails, filter by ARM recipients, move to arm64 ----
         date_str = since.strftime("%d-%b-%Y")
         conn.select("INBOX", readonly=True)
         all_uids = conn.search(f"SINCE {date_str}", uid=True)
@@ -567,15 +500,12 @@ def run_once():
         else:
             log("  No ARM-related emails found")
 
-        # ---- Step 3 & 4: Analyze new arm64 emails ----
-        arm64_uids = conn.search("1:*", uid=True) if conn.select(ARM64_FOLDER, readonly=True) else []
-        arm64_uid_set = set(arm64_uids)
-
+        conn.select(ARM64_FOLDER, readonly=True)
+        arm64_uids = conn.search("1:*", uid=True)
         new_arm64_uids = [u for u in arm64_uids if u not in processed_uids]
         log(f"  Arm64 folder: {len(arm64_uids)} total, {len(new_arm64_uids)} new")
 
         if new_arm64_uids:
-            # Build UID -> message mapping
             uid_to_msg = {}
             for i in range(0, len(new_arm64_uids), 10):
                 chunk = new_arm64_uids[i:i+10]
@@ -587,7 +517,6 @@ def run_once():
                     except Exception as e:
                         log_error(f"  Error parsing uid {uid}: {e}")
 
-            # Group by series name
             threads = {}
             for uid, msg in uid_to_msg.items():
                 subject = get_header(msg, "Subject")
@@ -604,16 +533,13 @@ def run_once():
                 analysis = call_llm(prompt)
 
                 if analysis and not analysis.startswith("[LLM API Error"):
-                    max_date = max(
-                        (get_email_date(m) or datetime.min for m in msgs)
-                    )
+                    max_date = max((get_email_date(m) or datetime.min for m in msgs))
                     filepath = write_analysis(sn, analysis, max_date)
                     log(f"  Wrote: {filepath}")
                     new_processing = True
                 else:
                     log_error(f"  Analysis failed for: {sn}")
 
-                # Save state incrementally after each thread
                 for u in data["uids"]:
                     processed_uids.add(u)
                 state["processed_uids"] = list(processed_uids)
@@ -630,14 +556,12 @@ def run_once():
             except Exception:
                 pass
 
-    # ---- Update state ----
     state["last_check"] = now.isoformat()
     if len(processed_uids) > 5000:
         processed_uids = set(list(processed_uids)[-5000:])
     state["processed_uids"] = list(processed_uids)
     save_state(state)
 
-    # ---- Step 5: Git push ----
     if new_processing:
         if git_commit_and_push():
             log("  Git push successful")
@@ -646,7 +570,6 @@ def run_once():
 
 
 def main_loop(interval=600):
-    """Run the tracker every `interval` seconds (default: 10 minutes)."""
     running = True
 
     def handle_signal(sig, frame):
@@ -658,17 +581,13 @@ def main_loop(interval=600):
     signal.signal(signal.SIGTERM, handle_signal)
 
     log(f"LKML ARM64 Tracker starting (interval={interval}s)")
-
     while running:
         try:
             run_once()
         except Exception as e:
             log_error(f"Unexpected error in run_once: {e}")
-
         if not running:
             break
-
-        # Sleep in 10-second increments to allow responsive shutdown
         elapsed = 0
         while elapsed < interval and running:
             time.sleep(min(10, interval - elapsed))
