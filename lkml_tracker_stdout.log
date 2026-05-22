@@ -598,3 +598,19 @@
 [2026-05-22 18:06:36]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_RMI_Add_SMC_definitions_for_calling_the_RMM.md
 [2026-05-22 18:06:36]   Analyzing: arm_mpam: Disable reqPARTID expansion when Narrow-PARTID is unavailable (1 msgs)
 [2026-05-22 18:07:29]   Wrote: /Users/imagent4bd/workspace/lkml/arm_mpam_Disable_reqPARTID_expansion_when_Narrow-PARTID_is_unavailable.md
+[2026-05-22 18:07:33]   Git push successful
+[2026-05-22 18:07:33] Done.
+[2026-05-22 18:17:39] Last check: 2026-05-22 10:05:39.558268+00:00, searching since 2026-05-22 09:05:39.558268+00:00
+[2026-05-22 18:17:40]   Found 58 emails in INBOX since 22-May-2026
+[2026-05-22 18:17:42]   Moved 5 ARM-related emails to arm64 folder
+[2026-05-22 18:17:42]   Arm64 folder: 201 total, 5 new
+[2026-05-22 18:17:42]   Analyzing: Devicetree support for Glymur GPU (1 msgs)
+[2026-05-22 18:18:48]   Wrote: /Users/imagent4bd/workspace/lkml/Devicetree_support_for_Glymur_GPU.md
+[2026-05-22 18:18:48]   Analyzing: drm/msm/a8xx: Fix RSCC offset (1 msgs)
+[2026-05-22 18:19:35]   Wrote: /Users/imagent4bd/workspace/lkml/drm_msm_a8xx_Fix_RSCC_offset.md
+[2026-05-22 18:19:35]   Analyzing: arm64: dts: qcom: glymur: Add GPU smmu node (1 msgs)
+[2026-05-22 18:20:31]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_dts_qcom_glymur_Add_GPU_smmu_node.md
+[2026-05-22 18:20:31]   Analyzing: arm64: dts: qcom: glymur: Add GPU cooling (1 msgs)
+[2026-05-22 18:21:40]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_dts_qcom_glymur_Add_GPU_cooling.md
+[2026-05-22 18:21:40]   Analyzing: arm64: tlb: Flush walk cache when unsharing PMD tables (1 msgs)
+[2026-05-22 18:22:36]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_tlb_Flush_walk_cache_when_unsharing_PMD_tables.md
