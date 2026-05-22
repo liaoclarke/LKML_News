@@ -39,3 +39,27 @@
 - [补丁 v?] btrfs: fallback to raid1 for 2-device raid5 and 3-device raid6  
   链接：https://lore.kernel.org/linux-btrfs/a1d63733465229936351804f3760803d5894a962.1779274630.git.wqu@suse.com/T/#u  
   该补丁尚未标记版本号，其核心变更是在 Btrfs 中检测到不安全的 RAID5/6 设备数时，强制将配置文件视为 RAID1 处理。
+
+---
+
+## 更新 - 2026-05-21 17:17 UTC
+
+## 核心话题
+本邮件讨论的焦点并非 ARM64 架构，而是关于 btrfs 文件系统中 RAID 6 卷所需的最少设备数量的限制。最初，Andre Morton 的补丁系列（编号 01/19）试图要求 btrfs 的 RAID 6 至少需要 4 个块设备才能创建或运行。这一要求源于 RAID-6 算法的内在规定：RAID-6 需要至少 4 个单元（数据块与校验块之和）才能正常工作。讨论中，H. Peter Anvin（RAID-6 代码的原作者）明确指出，RAID-6 代码从未支持过 3 个设备的情况，任何在 3 个设备上成功运行 RAID-6 的现象都纯属意外，甚至可能导致内核崩溃或页缓存损坏。他坚决主张对此类配置直接报错，以保护用户数据。Christoph Hellwig 一度想通过补丁将这种配置排除在外，但在听到 Peter Anvin 的强烈反对后，决定在即将重新发送的系列中删除这一针对 btrfs 的补丁，改为维持现有行为，并在检测到不支持配置时仅触发 WARN_ON_ONCE 警告。btrfs 的维护者 Qu Wenruo 随后提出，可以在 btrfs 内部将不符合要求的 RAID 配置（如 2 设备的 RAID5 或 3 设备的 RAID6）自动降级为 RAID1，以防止数据丢失，并希望该方案能在下一个合并窗口完成。Andrew Morton 确认该 RAID5/6 代码清理系列的合并目标是 7.2-rc1 合并窗口，并询问时间是否合适。因此，整个讨论围绕着如何在 btrfs 层面优雅地处理底层 RAID 算法不支持的不安全配置，同时推进 RAID5/6 代码的整体清理工作。
+
+## 参与讨论人员
+- Andrew Morton (akpm@linux-foundation.org) — Linux 内核维护者  
+- Qu Wenruo (quwenruo.btrfs@gmx.com) — btrfs 文件系统开发者/维护者  
+- Christoph Hellwig — 存储子系统开发者  
+- H. Peter Anvin — RAID-6 代码原作者  
+
+## 达成的结论
+达成了一定的共识。Christoph Hellwig 明确表示，出于 H. Peter Anvin 的强烈反对，他将在重新提交的补丁系列中移除那项要求 btrfs RAID 6 至少 4 个设备的补丁，即保留 btrfs 的现有行为不变，但会添加 WARN_ON_ONCE 警告。这相当于承认直接拒绝配置是合理的，但暂时不在当前补丁里强制修改 btrfs。Qu Wenruo 的降级方案（fallback 到 RAID1）被提出作为后续更完善的替代方案，未遭到反对，但尚未落地，需要后续开发。
+
+## 下一步改进方向
+- Qu Wenruo 需要实现 btrfs 内部对低设备数 RAID 配置的自动降级功能：将 2 设备的 RAID5 和 3 设备的 RAID6 降级为 RAID1，以安全地防止用户数据丢失。  
+- 该 btrfs 改进应尽可能在 Linux 7.2-rc1 合并窗口前完成，以便配合整体的 RAID5/6 清理系列。如果来不及，可能需要后续版本引入。  
+- Christoph Hellwig 将重新发送不含争议 btrfs 补丁的 RAID5/6 清理系列，并确保现有不支持的配置仅产生警告，不改变其原有的（可能崩溃的）行为，等待 btrfs 侧的正确修复。
+
+## 新增补丁
+在本讨论线程中未直接提交新的补丁版本。Christoph Hellwig 表示将重新发送整个系列（可能为 v2 或更新的版本），且该版本将移除原先的“btrfs: require at least 4 devices for RAID 6”补丁。该新版本补丁集尚未在邮件中直接贴出，但明确将在未来发布。因此，该线程内无可列出的新补丁版本号。
