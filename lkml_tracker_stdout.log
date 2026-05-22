@@ -496,3 +496,11 @@
 [2026-05-22 15:16:52]   Arm64 folder: 188 total, 1 new
 [2026-05-22 15:16:52]   Analyzing: arm64: mm: call pagetable dtor when freeing hot-removed page tables (1 msgs)
 [2026-05-22 15:17:38]   Wrote: /Users/imagent4bd/workspace/lkml/arm64_mm_call_pagetable_dtor_when_freeing_hot-removed_page_tables.md
+[2026-05-22 15:17:41]   Git push successful
+[2026-05-22 15:17:41] Done.
+[2026-05-22 15:27:48] Last check: 2026-05-22 07:16:50.605046+00:00, searching since 2026-05-22 06:16:50.605046+00:00
+[2026-05-22 15:27:48]   Found 37 emails in INBOX since 22-May-2026
+[2026-05-22 15:27:50]   Moved 1 ARM-related emails to arm64 folder
+[2026-05-22 15:27:50]   Arm64 folder: 189 total, 1 new
+[2026-05-22 15:27:51]   Analyzing: KVM: arm64: Provide assembly for SME register access (1 msgs)
+[2026-05-22 15:28:41]   Wrote: /Users/imagent4bd/workspace/lkml/KVM_arm64_Provide_assembly_for_SME_register_access.md
