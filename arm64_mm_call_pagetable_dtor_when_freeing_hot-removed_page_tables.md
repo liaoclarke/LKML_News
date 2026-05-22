@@ -45,3 +45,30 @@ Alistair 提出的修复方法是在热拔出释放页表页的函数 `free_hotp
 
 ## 下一步改进方向
 该补丁需要被正式合入主线。由于 Andrew Morton（-mm 树维护者）已接手处理，它预计会先进入 -mm 树的 mm-hotfixes 分支，并最终在下一个合并窗口或作为修复直接合入 Linus 主线。同时，由于标明了 stable，修复将被反向移植到 v6.16 及之后受影响的稳定内核版本。目前无需进一步的代码修改或额外讨论，等待合入
+
+---
+
+## 更新 - 2026-05-22 08:15 UTC
+
+## 核心话题
+本邮件讨论围绕一个ARM64架构的内存热移除（memory hot-remove）缺陷修复补丁展开。核心问题是：自上游提交 `5e8eb9aeeda3`（"arm64: mm: always call PTE/PMD ctor in __create_pgd_mapping()"）合入后，ARM64 在创建页表时总是调用 `pagetable_{pte,pmd,pud,p4d}_ctor()`，该构造函数会设置 `page_type` 为 `PGTY_table`、增加 `NR_PAGETABLE` 统计计数，并且在启用了 `ALLOC_SPLIT_PTLOCKS` 的情况下还可能分配页表锁（PTL）。然而，在内存热移除流程中释放页表时，对应的 `pagetable_dtor()` 析构函数从未被调用，导致页的 `page_type` 未被清除、`NR_PAGETABLE` 统计错误，以及潜在的 PTL 内存泄漏。
+
+这个缺陷在启用 `DEBUG_VM` 且运行早于 v6.17（没有 commit `2dfcd1608f3a9` "mm/page_alloc: let page freeing clear any set page type"）的内核上会直接触发 VM BUG 警告。警告发生在 `free_pages()` -> `__free_pages()` -> `__free_frozen_pages()` -> `bad_page()` 路径中，原因是 page 的 `page_type` 共享了 `_mapcount` 字段，释放时 mapcount 非零被视为异常，从而报告 "nonzero mapcount" 并 dump 页信息（如 page_type: f2(table)）。调用栈明确指向热移除流程：`free_empty_tables()` -> `free_hotplug_page_range()` -> `free_pages()`。
+
+补丁作者 Alistair Popple 的修复非常直接：在 `free_hotplug_pgtable_page()` 中调用 `pagetable_dtor()` 之后再释放页面，从而反转构造函数的影响。Andrew Morton 在回复中明确指出该问题影响 6.16+ 内核，并建议补丁需要标注 `cc: stable` 以向后移植到稳定版。Catalin Marinas 作为 ARM64 维护者参与了审核。
+
+## 参与讨论人员
+- **Alistair Popple** (NVIDIA) — 补丁作者，发现并修复该问题。
+- **Andrew Morton** — 资深内核维护者，提出应标记 `cc:stable`。
+- **Catalin Marinas** (Arm) — ARM64 架构维护者，参与审核与回复。
+
+## 达成的结论
+讨论中已达成明确共识：该缺陷确实存在，修复方案 (`pagetable_dtor()`) 正确且必要。Andrew Morton 明确指出需要标记 `cc:stable`，以覆盖受影响的稳定版内核（6.16+）。Catalin Marinas 的回复（邮件内容被截断，但作为维护者参与）可合理推断为认可该修复。因此，该补丁将被合入主线并附带 `Fixes: 5e8eb9aeeda3` 标签以及 `Cc: stable` 注释。
+
+## 下一步改进方向
+- 补丁需要由 ARM64 维护者（Catalin Marinas）排队合入 `arm64` 树，或通过 `mm` 树合入上游。根据现有讨论，预计很快会被采纳。
+- 必须确保补丁包含正确的 `Fixes` 标签和 `Cc: stable` 声明，以便稳定版维护者能自动或手动将其移植到 v6.16 至 v6.17-rc 之间的版本。
+- 考虑到补丁修复的是页释放路径，建议关注是否需要在其他可能有类似构造/析构不匹配的架构或流程中进行类似修复，但目前本补丁仅针对 ARM64 热移除路径。
+
+## 新增补丁
+本次邮件线程中**没有出现新的补丁版本**，仅有一个初始补丁（v1）被讨论和评审。作者没有基于反馈再发 v2，因为评审者已直接给出了赞同意见和 `cc:stable` 建议。因此，最终合入的补丁内容应与此处展示的初始版本一致，仅需加入 `Cc: stable` 标记。
